@@ -5861,7 +5861,7 @@ function sendOrderToWhatsApp(skipPixStage=false){
   if(orderTiming==='scheduled'&&scheduledDate&&scheduledTime){
    lines.push(`*Agendado: ${scheduledDate.split('-').reverse().join('/')} às ${scheduledTime}*`);
   }
-  lines.push('');
+  lines.push('', '********************************************************************', '');
   // Mantém a associação de bordas grátis à pizza correta, sem expor detalhes promocionais.
   lines.push('🛒 *PEDIDO*');
   const weekdayBorderGiftsByPizzaKey=new Map();
@@ -5876,7 +5876,9 @@ function sendOrderToWhatsApp(skipPixStage=false){
   });
   const linkedWeekdayBorderGifts=new Set([...weekdayBorderGiftsByPizzaKey.values()].flat());
   const whatsappItems=cart.filter(item=>!linkedWeekdayBorderGifts.has(item));
-  whatsappItems.forEach(item=>{
+  whatsappItems.forEach((item,itemIndex)=>{
+   // Mantém cada produto em um bloco próprio na comanda do WhatsApp.
+   if(itemIndex>0)lines.push('');
    const qty=Math.max(1,Number(item.qty)||1);
    const isPizza=item.kind==='pizza';
    const isSaturdayGift=!!item.isSaturdayGift;
@@ -5931,7 +5933,7 @@ function sendOrderToWhatsApp(skipPixStage=false){
   });
   const notes=(document.getElementById('notes')?.value||'').trim();
   if(notes)lines.push('',`*Observações:* ${notes}`);
-  lines.push('', '💰 *FINANCEIRO*');
+  lines.push('', '********************************************************************', '', '💰 *FINANCEIRO*');
   if(payment)lines.push(`Pagamento: ${payment}`);
   if(payment==='Dinheiro'){
    const changeText=(document.getElementById('change')?.value||'').trim();

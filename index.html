@@ -1,6 +1,6 @@
 <!doctype html>
 <!-- Foto ilustrativa temporária para pizzas e promoções: Cook Eat / Pexels. Fonte: https://www.pexels.com/photo/pizza-on-a-wooden-board-12407828/ -->
-<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta name="theme-color" content="#176b3a"><title>Paulistano Pizzaria — Pedidos</title>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta name="theme-color" content="#176b3a"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet"><title>Paulistano Pizzaria — Pedidos</title>
 <style>
 :root{--green:#168342;--green2:#0d6932;--cream:#fffaf0;--ink:#22251f;--muted:#6e726b;--line:#e8e5dc;--card:#fff;--soft:#f3f7ef}*{box-sizing:border-box}body{margin:0;background:var(--cream);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",sans-serif;font-size:15px;overflow-x:clip}button,input,select,textarea{font:inherit}button{cursor:pointer}.hero{position:relative;background:linear-gradient(135deg,#176b3a,#219653);color:white;padding:28px 18px 34px;text-align:center;border-radius:0 0 25px 25px}.hero .logo{display:block;width:clamp(128px,28vw,190px);height:auto;aspect-ratio:1/1;object-fit:contain;object-position:center;border-radius:0;background:transparent;padding:0;margin:0 auto 12px;box-shadow:none}.hero h1{font-size:clamp(25px,6vw,36px);line-height:1.1;margin:0 0 8px}.hero p{margin:0;color:#e1f3e5}.store-status-indicator{position:absolute;top:10px;left:10px;display:inline-flex;align-items:center;justify-content:center;gap:7px;margin:0;padding:5px 9px;border:1px solid #ffffff45;border-radius:999px;background:#ffffff18;color:#fff;font-size:11px;font-weight:800;line-height:1.2}.store-status-dot{width:9px;height:9px;flex:0 0 9px;border-radius:50%;background:#b8c2bb;box-shadow:0 0 0 2px #ffffff30}.store-status-indicator[data-state="open"] .store-status-dot{background:#65f58b;box-shadow:0 0 0 2px #ffffff35,0 0 9px #65f58b88}.store-status-indicator[data-state="closed"] .store-status-dot{background:#ff5656;box-shadow:0 0 0 2px #ffffff35,0 0 9px #ff565688}.store-status-indicator[data-state="unconfigured"] .store-status-dot{background:#ffd166}.wrap{max-width:1280px;margin:auto;padding:14px 8px 100px}.intro{display:flex;justify-content:space-between;align-items:center;gap:10px;margin:4px 0 16px}.intro h2{font-size:21px;margin:0}.pill{font-size:12px;color:var(--green2);background:#e5f4e8;padding:7px 10px;border-radius:30px;font-weight:700}.search{width:100%;padding:13px 15px;border:1px solid var(--line);border-radius:13px;background:white;outline-color:var(--green);margin-bottom:12px}.tabs:empty{display:none}.tabs{display:flex;flex-wrap:wrap;gap:8px;overflow:visible;padding:2px 0 14px}.tab{border:1px solid var(--line);background:white;color:#555;padding:9px 13px;border-radius:99px;white-space:normal;font-size:13px;font-weight:700;flex:0 1 auto}.tab.active{background:var(--green);border-color:var(--green);color:white}.layout{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:17px;align-items:start}.products{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}.product{background:white;border:1px solid var(--line);border-radius:16px;padding:14px;min-width:0;box-shadow:0 3px 12px #33220006}.prod-top{display:flex;align-items:flex-start;justify-content:space-between;gap:8px}.product h3{font-size:15px;margin:0 0 5px;line-height:1.3}.new{font-size:9px;background:#e4f7e9;color:#16713a;padding:4px 6px;border-radius:5px;font-weight:900}.kind{font-size:11px;color:var(--muted);margin-bottom:12px}.product label,.field label{display:block;font-size:12px;font-weight:750;color:#555c53;margin-bottom:5px}.product select{width:100%;border:1px solid var(--line);border-radius:9px;background:#fbfbf8;padding:9px;margin-bottom:9px}.add{width:100%;border:0;background:var(--green);color:white;padding:11px;border-radius:10px;font-weight:800}.add:hover,.send:hover{background:var(--green2)}.price{font-weight:850;color:var(--green2);font-size:18px;margin:4px 0 11px}.cart{background:white;border:1px solid var(--line);border-radius:17px;padding:16px;position:sticky;top:12px}.cart h2{font-size:19px;margin:0 0 4px}.cart-heading-row{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:4px}.cart-heading-row h2{margin:0}.cart-new-order{flex:0 0 auto;border:1px solid #e8d6d2;border-radius:8px;background:#fff8f6;color:#98473e;padding:6px 8px;font-size:11px;font-weight:800}.cart-draft-recovery{margin:10px 0 13px;padding:12px;border:1px solid #d7e6d1;border-radius:12px;background:#f3f8f0;font-size:12px;line-height:1.45}.cart-draft-recovery>strong{display:block;color:#235b34;font-size:13px}.cart-draft-recovery p{margin:6px 0;color:#4f5b4e}.cart-draft-time{font-size:10px;color:#72766f!important}.cart-draft-actions{display:flex;gap:7px;flex-wrap:wrap;margin-top:9px}.cart-draft-actions button{flex:1 1 120px;min-height:40px;border-radius:8px;padding:8px 9px;font-size:11px;font-weight:850}.cart-draft-recover{border:0;background:#168342;color:#fff}.cart-draft-discard{border:1px solid #ddd6cc;background:#fff;color:#655c52}.cart-draft-error{color:#9a453d!important;font-size:11px}.cart-draft-status{margin:6px 0 10px;color:#6d746b;font-size:10px;line-height:1.4}.cart-draft-status:empty{display:none}.sub{font-size:12px;color:var(--muted);margin-bottom:14px}.cart-empty{background:#f8f8f4;border-radius:11px;text-align:center;color:var(--muted);padding:22px 8px;font-size:13px}.cart-line{padding:11px 0;border-bottom:1px solid #eee;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:7px}.cart-line-actions{display:flex;align-items:center;justify-content:flex-end;gap:7px;flex-wrap:wrap;margin-top:6px}.cart-line-actions button{border:1px solid var(--line);background:#f7f8f4;color:var(--green);border-radius:7px;padding:5px 8px;font-size:11px;font-weight:750}.cart-line-actions button[data-remove-q]{color:#ad4d42}.order-schedule-fields{border:1px solid var(--line);border-radius:10px;background:#fbfcf8;padding:10px;margin-top:8px}.order-schedule-fields .two{gap:8px}.order-schedule-fields .field{margin-bottom:2px}.order-timing-note{font-size:12px;line-height:1.45;color:var(--muted);margin:7px 0 0}.builder-edit-cancel{border:1px solid var(--line);background:#f7f8f4;color:var(--green);border-radius:10px;padding:10px 12px;font-weight:750;margin:8px auto 0;display:block}.builder-edit-cancel.hidden{display:none}.cart-line strong{font-size:13px;line-height:1.35}.cart-line small{display:block;color:var(--muted);font-size:11px;margin-top:3px}.cart-line-right{text-align:right;white-space:nowrap}.qty{display:flex;align-items:center;gap:8px;justify-content:flex-end;margin-top:7px}.qty button{border:1px solid var(--line);background:#f7f8f4;border-radius:7px;width:32px;height:32px;font-weight:800}.remove{border:0;background:none;color:#ad4d42;font-size:12px;margin-top:4px}.total{display:flex;justify-content:space-between;font-size:18px;font-weight:900;padding:15px 0}.checkout{border-top:1px solid var(--line);padding-top:15px;margin-top:2px}.checkout h3{margin:0 0 12px;font-size:16px}.field{margin-bottom:11px}.field input,.field select,.field textarea{width:100%;border:1px solid var(--line);border-radius:10px;background:#fff;padding:11px;outline-color:var(--green)}.field textarea{resize:vertical;min-height:65px}.two{display:grid;grid-template-columns:1fr 1fr;gap:9px}.send{width:100%;background:var(--green);color:white;border:0;border-radius:12px;padding:14px 12px;font-weight:900;margin-top:4px}.send span{margin-right:6px}.fine{font-size:10px;line-height:1.5;color:var(--muted);text-align:center;margin:9px 0 0}.notice{font-size:12px;color:#6e5a2c;background:#fff7df;border:1px solid #f0e2b6;padding:10px;border-radius:10px;margin:0 0 13px}.floating{display:none}.footer{text-align:center;color:var(--muted);font-size:11px;margin-top:28px}.store-info-contact{display:grid;gap:5px;margin-top:7px}.store-info-contact a,.pickup-address-info a{color:var(--green2);font-weight:750;text-decoration:none}.store-info-contact a:hover,.pickup-address-info a:hover{text-decoration:underline}.pickup-address-info{font-size:11px;line-height:1.4;color:var(--muted);margin:6px 0 0}.hidden{display:none!important}.pizza-builder{grid-column:1/-1;background:#fff;border:1px solid var(--line);border-radius:16px;padding:15px}.builder-options{display:grid;grid-template-columns:minmax(0,1fr);gap:12px;margin-bottom:14px}.builder-options select{width:100%;border:1px solid var(--line);border-radius:10px;padding:11px;background:#fbfbf8}.builder-heading{font-weight:850;margin:10px 0 8px}.flavor-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.flavor-option{display:flex;align-items:center;gap:9px;border:1px solid var(--line);border-radius:11px;padding:11px;background:#fff;text-align:left;min-width:0}.flavor-option.selected{border-color:var(--green);background:#edf8ef;box-shadow:inset 0 0 0 1px var(--green)}.flavor-option input{accent-color:var(--green)}.flavor-name{font-weight:700;font-size:13px;flex:1}.flavor-price{font-size:12px;color:var(--green2);white-space:nowrap}.builder-summary{display:block;background:#f3f7ef;border:1px solid #e0ead9;border-radius:12px;padding:13px;margin:13px 0;font-size:13px}
 .flavor-price{font-size:11px;color:var(--green2);white-space:normal;text-align:right;max-width:145px}
@@ -2676,6 +2676,143 @@ body[data-presentation-view="pdv"][data-page="cart"] #pdvScreen #presentationRet
 .pizza-builder.builder-add-is-floating .builder-summary-panel{
   margin-bottom:8px!important;
 }
+
+/* ===== Refino visual: só aparência, sem alterar a lógica ===== */
+:root{--green:#15783d;--green2:#0b5a2b;--cream:#faf7ef;--line:#ece6d6;--soft:#f1f6ea;--tomato:#d63f27;--r-lg:20px;--shadow:0 1px 2px #2a2a1a14,0 10px 26px -12px #2a2a1a33;--font-display:"Bricolage Grotesque","Trebuchet MS",system-ui,sans-serif;--font-body:"DM Sans",system-ui,-apple-system,"Segoe UI",sans-serif}
+html{scroll-behavior:smooth}
+body{font-family:var(--font-body);background:var(--cream);-webkit-font-smoothing:antialiased}
+body h1,body h2,body h3,body .price,.presentation-google-score{font-family:var(--font-display);letter-spacing:-.015em}
+::selection{background:#bfe6c9}
+body :focus-visible{outline:3px solid #f4c542;outline-offset:2px}
+/* Topo do cardápio */
+body .hero{background:radial-gradient(120% 90% at 50% 0%,#22a05a 0%,var(--green) 48%,var(--green2) 100%);border-radius:0 0 32px 32px;box-shadow:0 16px 32px -20px #0b5a2bdd;padding:32px 18px 40px}
+body .hero h1{font-weight:800;letter-spacing:-.02em}
+body .hero .logo{filter:drop-shadow(0 10px 16px #00000030)}
+/* Tela de apresentação */
+body .presentation-hero-copy{background:linear-gradient(140deg,var(--green) 0%,var(--green2) 100%);border-radius:26px;box-shadow:0 18px 36px -22px #0b5a2bee}
+body .presentation-hero-text h2{font-weight:800;line-height:1.05}
+body .presentation-hero-text h2 em{font-style:normal;color:#ffd96b}
+body .presentation-order-button{background:var(--tomato);color:#fff;border:0;border-radius:999px;min-height:54px;padding:14px 22px;font-weight:800;box-shadow:0 12px 22px -10px #d63f27cc,inset 0 -3px 0 #00000026}
+body .presentation-order-button:active{transform:translateY(2px)}
+body .presentation-gallery-card,body .presentation-video-card,body .presentation-feedback-section{border-radius:var(--r-lg);box-shadow:var(--shadow)}
+/* Busca e categorias */
+body .search{background:#fff;border:1px solid var(--line);border-radius:16px;padding:14px 16px;box-shadow:var(--shadow)}
+body .search:focus{border-color:var(--green);box-shadow:0 0 0 4px #15783d24;outline:none}
+body .tab{background:#fff;border:1px solid var(--line);border-radius:999px;padding:9px 15px;color:#4a4f46;font-weight:700}
+body .tab.active{background:var(--green);border-color:var(--green);color:#fff;box-shadow:0 8px 16px -8px #15783daa}
+/* Produtos e promoções */
+body .wrap{padding-left:12px;padding-right:12px}
+body .products{gap:14px}
+body .product{background:#fff;border:1px solid var(--line);border-radius:var(--r-lg);box-shadow:var(--shadow);padding:12px}
+body .product .price{color:var(--tomato);font-weight:800}
+body .produto-foto{border-radius:16px}
+body .promo-card-customer{border-radius:var(--r-lg);box-shadow:var(--shadow);overflow:hidden}
+body .promo-cta{border-radius:999px;font-weight:800}
+/* Carrinho e envio */
+body .cart{background:#fff!important;border:1px solid var(--line)!important;border-radius:22px!important;box-shadow:var(--shadow)!important}
+body .send{border-radius:14px;font-weight:800;box-shadow:0 12px 22px -12px #0b5a2bcc}
+/* Janelas */
+body .modal-backdrop{backdrop-filter:blur(3px);-webkit-backdrop-filter:blur(3px)}
+body .promo-modal{border-radius:24px;box-shadow:0 30px 60px -24px #000a}
+body .modal-confirm,body .modal-cancel{border-radius:14px;font-weight:800}
+/* Etapa 2 igual à etapa 1 */
+body .builder-title-block .builder-flavor-title{display:flex;align-items:center;gap:8px;margin:18px 0 10px;padding:10px 12px;border:1px solid #e3eadf;border-radius:12px;background:#f4f8f2;color:#1d5738;font-family:var(--font-body);font-size:14px;line-height:1.3;font-weight:900;letter-spacing:0}
+body .builder-title-block .builder-heading{font-family:var(--font-body);letter-spacing:0}
+@media(max-width:560px){body .builder-title-block .builder-flavor-title{padding:9px 10px;font-size:13px}}
+/* Notificação (aviso que aparece embaixo) */
+body .saturday-promo-toast{background:#14301f;color:#f4faf5;border:1px solid #ffffff1f;border-left:5px solid #5fd283;border-radius:16px;box-shadow:0 18px 40px -12px #0a1d11cc,0 2px 6px #0a1d1166;font-size:14.5px;font-weight:600;line-height:1.45;text-align:left;letter-spacing:0;padding:14px 16px;transition:opacity .22s ease,transform .22s ease,visibility .22s}
+body .saturday-promo-toast.warning{background:#3a2410;border-left-color:#ffb547;color:#fff6e6}
+body .saturday-promo-toast.product-added{background:#14301f;border-left-color:#5fd283;color:#f4faf5;justify-content:flex-start;text-align:left}
+body .saturday-promo-toast .toast-success-icon{flex:0 0 26px;width:26px;height:26px;border-radius:50%;background:#5fd283;color:#0f2d1a;display:inline-flex;align-items:center;justify-content:center;font-size:14px;font-weight:900}
+/* Descrição curta dos sabores */
+body .builder-flavor-description{margin-top:2px;font-size:12px;line-height:1.35;color:#6a7268}
+/* Selo Mais pedido */
+body .top-pick{display:inline-block;margin-left:6px;padding:2px 8px;border-radius:999px;background:var(--tomato);color:#fff;font-family:var(--font-body);font-size:10.5px;font-weight:800;line-height:1.5;letter-spacing:0;white-space:nowrap;vertical-align:middle}
+/* Repetir último pedido */
+body .repeat-last-order{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:0 0 14px;padding:13px 15px;border:1px solid #cfe4c8;border-radius:var(--r-lg);background:#eef6ea;box-shadow:var(--shadow)}
+body .repeat-last-order.hidden{display:none}
+body .repeat-last-copy{display:flex;flex-direction:column;gap:2px;min-width:0}
+body .repeat-last-copy strong{font-family:var(--font-display);font-size:15px;color:var(--green2)}
+body .repeat-last-copy span{font-size:13px;color:#4a5a49;overflow-wrap:anywhere}
+body .repeat-last-button{flex:0 0 auto;min-height:44px;padding:10px 16px;border:0;border-radius:999px;background:var(--green);color:#fff;font-weight:800;box-shadow:0 10px 18px -10px #0b5a2bcc}
+body .repeat-last-button:active{transform:translateY(1px)}
+@media(max-width:480px){body .repeat-last-order{flex-direction:column;align-items:stretch}body .repeat-last-button{width:100%}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+
+
+/* Seletor visual de bordas — mantém o select nativo como fonte dos valores. */
+.border-picker{position:relative;width:100%;min-width:0}
+.border-picker-trigger{display:flex;align-items:center;justify-content:space-between;gap:12px;width:100%;min-height:50px;padding:10px 13px;border:1px solid var(--line);border-radius:13px;background:#fff;color:var(--ink);text-align:left;box-shadow:0 2px 7px #243b2609;transition:border-color .24s ease,box-shadow .24s ease,background .24s ease}
+.border-picker-trigger:hover{border-color:#a9c8aa;background:#fffefa}
+.border-picker-trigger:focus-visible{outline:3px solid #f4c542;outline-offset:2px}
+.border-picker-trigger-copy{display:flex;flex-direction:column;gap:2px;min-width:0;flex:1 1 auto}
+.border-picker-trigger-value{display:block;overflow-wrap:anywhere;font-size:14px;font-weight:800;line-height:1.3;color:#263b2d}
+.border-picker-trigger-price{display:block;color:var(--tomato);font-size:12px;font-weight:800;line-height:1.25}
+.border-picker-trigger-price[hidden]{display:none!important}
+.border-picker-chevron{flex:0 0 auto;color:var(--green2);font-size:20px;line-height:1;transform:rotate(0);transition:transform .24s ease}
+.border-picker-trigger[aria-expanded="true"] .border-picker-chevron{transform:rotate(180deg)}
+.border-picker-panel{position:absolute;z-index:65;top:calc(100% + 7px);left:0;right:0;display:flex;flex-direction:column;max-height:min(390px,65vh);padding:10px;border:1px solid #e1e6dc;border-radius:15px;background:var(--cream);box-shadow:0 16px 38px #152c1b24;opacity:0;transform:translateY(-8px);transition:transform .24s ease,opacity .24s ease;pointer-events:none}
+.border-picker-panel[hidden]{display:none!important}
+.border-picker-panel.is-open{opacity:1;transform:translateY(0);pointer-events:auto}
+.border-picker-panel-head{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:2px 2px 9px;border-bottom:1px solid var(--line);flex:0 0 auto}
+.border-picker-panel-head strong{font-size:13px;color:#314333}
+.border-picker-close{min-height:34px;padding:6px 11px;border:1px solid var(--line);border-radius:9px;background:#f4f3ed;color:#53594f;font-size:12px;font-weight:800}
+.border-picker-handle{display:none}
+.border-picker-options{display:grid;gap:7px;overflow-y:auto;overscroll-behavior:contain;min-height:0;padding:9px 1px 1px}
+.border-picker-option{display:flex;align-items:center;justify-content:space-between;gap:12px;width:100%;min-height:49px;padding:10px 11px;border:1px solid var(--line);border-radius:11px;background:#fff;color:var(--ink);text-align:left;transition:background .24s ease,border-color .24s ease,transform .24s ease}
+.border-picker-option:active{transform:scale(.99)}
+.border-picker-option:focus-visible{outline:3px solid #f4c542;outline-offset:1px}
+.border-picker-option-copy{display:flex;flex-direction:column;gap:3px;min-width:0}
+.border-picker-option-name{font-size:13px;font-weight:800;line-height:1.3;overflow-wrap:anywhere}
+.border-picker-option-price{font-size:11px;font-weight:750;color:var(--green2);white-space:nowrap}
+.border-picker-option-check{display:grid;place-items:center;flex:0 0 25px;width:25px;height:25px;border-radius:50%;background:#edf5eb;color:var(--green2);font-size:15px;font-weight:950;opacity:0;transform:scale(.8);transition:opacity .24s ease,transform .24s ease}
+.border-picker-option[aria-selected="true"]{border-color:var(--green);background:#eef7eb;box-shadow:inset 0 0 0 1px var(--green)}
+.border-picker-option[aria-selected="true"] .border-picker-option-check{opacity:1;transform:scale(1)}
+.border-picker-backdrop{position:fixed;inset:0;z-index:1150;display:flex;align-items:flex-end;justify-content:center;padding:0;background:rgba(19,31,23,.62);opacity:0;transition:opacity .24s ease;backdrop-filter:blur(2px);-webkit-backdrop-filter:blur(2px)}
+.border-picker-backdrop.is-open{opacity:1}
+.border-picker-backdrop .border-picker-sheet{display:flex;flex-direction:column;width:min(100%,560px);max-height:84dvh;min-height:260px;padding:10px 14px calc(15px + env(safe-area-inset-bottom,0px));border-radius:22px 22px 0 0;background:var(--cream);box-shadow:0 -14px 50px #0003;transform:translateY(24px);opacity:0;transition:transform .24s ease,opacity .24s ease}
+.border-picker-backdrop .border-picker-sheet.is-open{transform:translateY(0);opacity:1}
+.border-picker-backdrop .border-picker-panel{position:static;top:auto;left:auto;right:auto;width:100%;max-height:none;min-height:0;padding:0;border:0;border-radius:0;background:transparent;box-shadow:none;transform:none;opacity:1;pointer-events:auto;transition:none}
+.border-picker-backdrop .border-picker-panel.is-open{transform:none;opacity:1;pointer-events:auto}
+.border-picker-handle{display:block;width:42px;height:4px;flex:0 0 auto;margin:0 auto 12px;border-radius:9px;background:#d8d9d1}
+.border-picker-backdrop .border-picker-panel-head{padding:0 0 12px}
+.border-picker-backdrop .border-picker-panel-head strong{font-size:18px}
+.border-picker-backdrop .border-picker-close{min-width:64px;min-height:36px}
+.border-picker-backdrop .border-picker-options{padding:12px 1px 8px;gap:8px;flex:1 1 auto}
+.border-picker-backdrop .border-picker-option{min-height:54px;padding:13px 12px}
+.border-picker-backdrop .border-picker-option-name{font-size:14px}
+@media(max-width:560px){
+ .border-picker-trigger{min-height:52px;padding:12px 13px}
+ .border-picker-panel:not(.border-picker-backdrop .border-picker-panel){max-height:330px}
+}
+@media(prefers-reduced-motion:reduce){
+ .border-picker-trigger,.border-picker-chevron,.border-picker-panel,.border-picker-option,.border-picker-option-check,.border-picker-backdrop{transition:none!important}
+}
+/* A vitrine inicial oculta filhos diretos do body; libera o overlay do seletor. */
+body[data-presentation-view="landing"] > .border-picker-backdrop:not(#presentationPage):not(#appViewport):not(script):not(style){display:flex!important}
+
+/* Pesquisa posicionada entre as categorias e a lista de produtos do construtor. */
+.builder-search-slot{padding:12px 16px 2px;}
+.builder-search-slot #search{display:block;width:100%;margin:0 0 12px;}
+@media(max-width:560px){.builder-search-slot{padding:10px 12px 1px;}}
+</style><style>
+.p2-cart-group{background:#f7faf4;border:1px solid #dce9d7;border-radius:12px;padding:10px;margin:8px 0;border-bottom:1px solid #dce9d7;align-items:start}
+.p2-cart-details{min-width:0}
+.p2-cart-title{display:block;color:#245b34;font-size:12px;font-weight:950;letter-spacing:.2px;margin-bottom:5px}
+.p2-cart-pizza{padding:5px 0;border-top:1px solid #e3ebdf}
+.p2-cart-pizza:first-of-type{border-top:0;padding-top:0}
+.p2-cart-pizza strong{display:block;font-size:12px;line-height:1.35}
+.p2-cart-pizza small{display:block;color:#626b5d;font-size:10px;line-height:1.35;margin-top:2px}
+.saturday-gift-cart-line{margin:8px 5px;padding:10px;border:1px solid #dce9d4;border-radius:12px;border-bottom-color:#dce9d4}
+@media(max-width:560px){.p2-cart-group{padding:9px;margin:7px 2px}.saturday-gift-cart-line{margin:8px 4px;padding:10px}}
+.pending-whatsapp-card{width:min(100%,480px);background:#fffdf7;border-radius:18px;padding:19px;box-shadow:0 20px 60px #0005;margin:auto}
+.pending-whatsapp-card h2{font-size:20px;line-height:1.25;margin:0 0 9px;color:#234b30}
+.pending-whatsapp-card p{font-size:13px;line-height:1.55;color:#596356;margin:0 0 15px}
+.pending-whatsapp-actions{display:grid;grid-template-columns:1fr;gap:9px}
+.pending-whatsapp-actions button{min-height:46px;border-radius:10px;padding:11px 13px;font-size:13px;font-weight:850}
+.pending-whatsapp-confirm{border:0;background:#168342;color:#fff}
+.pending-whatsapp-return{border:1px solid #deded4;background:#fff;color:#4f584d}
+@media(max-width:560px){.pending-whatsapp-card{padding:16px}.p2-cart-group{padding:10px}}
 </style></head><body data-page="menu" data-presentation-view="landing">
 <section id="presentationPage" class="presentation-page" aria-label="Apresentação da Paulistano Pizzaria">
   <div class="presentation-shell">
@@ -2815,15 +2952,16 @@ body[data-presentation-view="pdv"][data-page="cart"] #pdvScreen #presentationRet
  <p id="cartDraftRecoveryError" class="cart-draft-error" role="status" aria-live="polite"></p>
 </div>
 <p id="cartDraftStatus" class="cart-draft-status" role="status" aria-live="polite"></p>
+<div id="repeatLastOrder" class="repeat-last-order hidden" role="region" aria-label="Repetir último pedido"><div class="repeat-last-copy"><strong>Repetir seu último pedido?</strong><span id="repeatLastOrderSummary"></span></div><button type="button" id="repeatLastOrderButton" class="repeat-last-button">Repetir pedido</button></div>
 <div class="intro"><h2 id="promotions-title">🔥 PROMOÇÕES</h2></div>
 <section class="promotions-section" id="promotions-section" aria-labelledby="promotions-title"><div class="promo-grid" id="promoCards"></div></section>
 <div class="intro menu-section-intro" id="menu-title"><h2>🍕 CARDÁPIO</h2></div>
-<input id="search" class="search" type="search" aria-label="Buscar pizzas, sabores ou bebidas" placeholder="🔎 Buscar pizza, sabor ou bebida..." autocomplete="off"><nav class="tabs" id="tabs" aria-label="Categorias do cardápio"></nav>
+<div id="search-origin" hidden><input id="search" class="search" type="search" aria-label="Buscar pizzas, sabores ou bebidas" placeholder="🔎 Buscar pizza, sabor ou bebida..." autocomplete="off"></div><nav class="tabs" id="tabs" aria-label="Categorias do cardápio"></nav>
 <div class="layout"><section><div class="products" id="products"></div><div class="footer" id="storeNotes"></div></section>
 <aside class="cart"><section class="cart-products-panel" aria-labelledby="cart-products-title"><div class="cart-heading-row"><h2 id="cart-products-title">🛒 Seu pedido</h2><button type="button" id="startNewOrder" class="cart-new-order hidden">Novo pedido</button></div><div class="sub">Confira os itens antes de enviar.</div>
 <div id="cartItems" class="cart-empty">Seu carrinho está vazio. Escolha algo gostoso!</div></section>
 <section class="cart-promotions-panel is-empty" aria-labelledby="cart-promotions-title"><div class="cart-section-heading cart-promotions-heading"><span class="cart-section-icon" aria-hidden="true">🎁</span><div><h3 id="cart-promotions-title">Promoções e benefícios</h3><p>Ofertas e vantagens aplicadas neste pedido.</p></div></div><div id="cartPromotionBenefits" class="cart-promotion-benefits" aria-live="polite"></div></section>
-<section class="cart-financial-panel" aria-labelledby="cart-financial-title"><div class="cart-section-heading cart-financial-heading"><span class="cart-section-icon" aria-hidden="true">💰</span><div><h3 id="cart-financial-title">Resumo financeiro</h3><p>Confira descontos, taxas e o valor final.</p></div></div><div id="cartSavings" class="cart-savings" aria-live="polite"><div class="cart-savings-row"><span>Subtotal sem descontos</span><strong>R$ 0,00</strong></div><div class="cart-savings-total"><span>Desconto total</span><strong>R$ 0,00</strong></div></div><div id="deliveryFeeSummary" class="delivery-fee-summary" aria-live="polite"></div><div class="total"><span id="totalLabel">Subtotal dos produtos</span><span id="total">R$ 0,00</span></div></section><div class="checkout cart-checkout-panel"><h3>Finalize seu pedido</h3><p class="checkout-intro">Só falta preencher os detalhes para enviar seu pedido pelo WhatsApp.</p>
+<section class="cart-financial-panel" aria-labelledby="cart-financial-title"><div class="cart-section-heading cart-financial-heading"><span class="cart-section-icon" aria-hidden="true">💰</span><div><h3 id="cart-financial-title">Resumo financeiro</h3><p>Confira descontos, taxas e o valor final.</p></div></div><div id="cartSavings" class="cart-savings" aria-live="polite"><div class="cart-savings-row"><span>Subtotal sem descontos</span><strong>R$ 0,00</strong></div><div class="cart-savings-total"><span>Desconto total</span><strong>R$ 0,00</strong></div></div><div id="deliveryFeeSummary" class="delivery-fee-summary" aria-live="polite"></div><div class="total"><span id="totalLabel">Subtotal dos produtos</span><span id="total">R$ 0,00</span></div></section><div class="checkout cart-checkout-panel"><h3>Finalize seu pedido</h3>
 <div class="checkout-wizard-progress" aria-label="Progresso da finalização">
  <div class="checkout-wizard-progress-meta"><span id="checkoutStepCount">Etapa 1 de 4</span><strong id="checkoutStepName">Seus dados</strong></div>
  <div class="checkout-wizard-progress-track" role="progressbar" aria-label="Progresso das etapas" aria-valuemin="1" aria-valuemax="4" aria-valuenow="1"><span id="checkoutStepProgress"></span></div>
@@ -2916,7 +3054,7 @@ const DEV_STATE = {
  cartTestActive:false, cartSnapshot:null, whatsappPreview:null
 };
 
-let DATA = {"estabelecimento":{"nome":"Paulistano Pizzaria","slogan":"Faça seu pedido de forma rápida e fácil.","whatsapp":"5584988486763","instagram":"@paulistanopizzaria_","moeda":"BRL","observacoes":["Preços sujeitos a alteração.","Promoções diferentes podem ser combinadas, respeitando os requisitos e limites de cada oferta.","Consulte disponibilidade."],"enderecoMaps":"https://maps.app.goo.gl/frhB7bonqd8AtRt67"},"cardapio":{"pizzas":{"tradicionais":[{"sabor":"Frango c/ requeijão Tirolez","precos":{"P_broto":33.0,"M":41.0,"G":49.0}},{"sabor":"Frango c/ cheddar","precos":{"P_broto":33.0,"M":41.0,"G":49.0}},{"sabor":"Francheddar","precos":{"P_broto":34.0,"M":43.0,"G":51.0}},{"sabor":"Frango c/ bacon","precos":{"P_broto":35.0,"M":44.0,"G":52.0}},{"sabor":"Frango c/ muçarela","precos":{"P_broto":30.0,"M":38.0,"G":46.0}},{"sabor":"Frango c/ ervilha","precos":{"P_broto":30.0,"M":38.0,"G":46.0},"novo":true},{"sabor":"Frango c/ milho","precos":{"P_broto":30.0,"M":38.0,"G":46.0}},{"sabor":"Calabresa","precos":{"P_broto":28.0,"M":35.0,"G":43.0}},{"sabor":"Calabresa c/ requeijão","precos":{"P_broto":32.0,"M":40.0,"G":48.0}},{"sabor":"Portuguesa","precos":{"P_broto":32.0,"M":40.0,"G":48.0}},{"sabor":"Mista","precos":{"P_broto":30.0,"M":37.0,"G":45.0}},{"sabor":"Muçarela","precos":{"P_broto":28.0,"M":35.0,"G":43.0}},{"sabor":"Marguerita","precos":{"P_broto":32.0,"M":40.0,"G":48.0}},{"sabor":"Dois queijos","precos":{"P_broto":30.0,"M":37.0,"G":45.0}},{"sabor":"Três queijos","precos":{"P_broto":32.0,"M":40.0,"G":48.0}}],"doces":[{"sabor":"Chocolate ao leite","precos":{"P_broto":25.0,"M":41.0,"G":49.0},"novo":true},{"sabor":"Brigadeiro","precos":{"P_broto":28.0,"M":43.0,"G":51.0}},{"sabor":"Chocolate c/ M&M","precos":{"P_broto":30.0,"M":43.0,"G":51.0}},{"sabor":"Chocolate c/ morango","precos":{"P_broto":37.0,"M":47.0,"G":55.0}},{"sabor":"Chocolate c/ banana","precos":{"P_broto":32.0,"M":42.0,"G":50.0}},{"sabor":"Prestígio","precos":{"P_broto":32.0,"M":42.0,"G":50.0}},{"sabor":"Afrodisíaca de amendoim","precos":{"P_broto":34.0,"M":44.0,"G":52.0}},{"sabor":"Nutella","precos":{"P_broto":40.0,"M":53.0,"G":61.0}},{"sabor":"Nutella c/ morango","precos":{"P_broto":47.0,"M":60.0,"G":68.0}},{"sabor":"Banana nevada","precos":{"P_broto":35.0,"M":50.0,"G":58.0}},{"sabor":"Romeu e Julieta","precos":{"P_broto":33.0,"M":47.0,"G":55.0}},{"sabor":"Ouro branco","precos":{"P_broto":37.0,"M":53.0,"G":61.0}},{"sabor":"Oreo","precos":{"P_broto":36.0,"M":52.0,"G":60.0},"novo":true}],"especiais":[{"sabor":"Carne de sol","precos":{"P_broto":37.0,"M":45.0,"G":53.0}},{"sabor":"Nordestina","precos":{"P_broto":40.0,"M":50.0,"G":58.0}},{"sabor":"Carne especial","precos":{"P_broto":43.0,"M":55.0,"G":63.0}},{"sabor":"Lombo aos 3 queijos","precos":{"P_broto":38.0,"M":49.0,"G":57.0}},{"sabor":"Do mestre","precos":{"P_broto":41.0,"M":53.0,"G":61.0}},{"sabor":"Bacon","precos":{"P_broto":38.0,"M":48.0,"G":56.0}},{"sabor":"Bacon c/ cheddar","precos":{"P_broto":41.0,"M":52.0,"G":60.0}},{"sabor":"Brócolis c/ muçarela","precos":{"P_broto":32.0,"M":40.0,"G":48.0}},{"sabor":"Fit pizza","precos":{"P_broto":37.0,"M":45.0,"G":53.0}},{"sabor":"Palmito","precos":{"P_broto":37.0,"M":47.0,"G":55.0}},{"sabor":"Apreciata","precos":{"P_broto":35.0,"M":43.0,"G":51.0},"novo":true},{"sabor":"Portuguesa especial","precos":{"P_broto":39.0,"M":49.0,"G":57.0}},{"sabor":"Paulistana","precos":{"P_broto":39.0,"M":50.0,"G":58.0}},{"sabor":"Mafiosa","precos":{"P_broto":37.0,"M":47.0,"G":55.0}},{"sabor":"Baiana especial","precos":{"P_broto":35.0,"M":45.0,"G":53.0}},{"sabor":"Doritos premium","precos":{"P_broto":44.0,"M":54.0,"G":62.0}},{"sabor":"Caipira","precos":{"P_broto":40.0,"M":50.0,"G":58.0}},{"sabor":"Frango c/ cream cheese","precos":{"P_broto":40.0,"M":50.0,"G":58.0},"novo":true},{"sabor":"Camarão","precos":{"P_broto":40.0,"M":50.0,"G":58.0}},{"sabor":"Camarão especial","precos":{"P_broto":45.0,"M":55.0,"G":63.0}},{"sabor":"Atum","precos":{"P_broto":36.0,"M":44.0,"G":52.0}},{"sabor":"Austrália","precos":{"P_broto":39.0,"M":47.0,"G":55.0}},{"sabor":"Quatro queijos","precos":{"P_broto":37.0,"M":47.0,"G":55.0}}],"observacao_tamanhos":{"P_broto":"Pizza broto/individual","M":"Pizza média","G":"Pizza grande"}},"bordas_recheadas":[{"sabor":"Requeijão Tirolez","preco":12.0},{"sabor":"Cheddar","preco":12.0},{"sabor":"Goiabada","preco":10.0},{"sabor":"Chocolate","preco":12.0},{"sabor":"Requeijão Tirolês","preco":20.0,"premium":true},{"sabor":"Chocolate ao leite","preco":20.0,"premium":true},{"sabor":"Cream cheese","preco":16.0,"premium":true}],"bebidas":[{"nome":"Coca-Cola 1 L","preco":9.0},{"nome":"Coca-Cola 2 L","preco":16.0},{"nome":"Coca-Cola Zero 1 L","preco":10.0,"novo":true},{"nome":"Guaraná Antarctica 1 L","preco":7.0},{"nome":"Pepsi 1 L","preco":7.0}],"informacoes":{"preco_inicial_pizza_broto":25.0,"texto_preco_inicial":"A partir de R$ 25,00 — tem broto individual.","tamanhos":{"P_broto":"P (broto) / individual","M":"Média","G":"Grande"},"chamadas_do_cardapio":["Faça seu pedido!","Atendimento pelo WhatsApp!","Confira nossos produtos!","Qualidade para você!","Produtos selecionados!","Aproveite nossas opções!"]}},"promocoes":[{"nome":"Pizza grande por R$ 29,99","preco_promocional":29.99,"preco_original_anunciado":43.0,"tipo":"pizza_grande_meio_a_meio","sabores":["Muçarela","Calabresa"],"descricao":"Pizza grande com meia muçarela e meia calabresa.","restricoes":["Apenas balcão e retirada."],"contato_whatsapp":"5584988486763","instagram":"@paulistanopizzaria_","texto_original":"Pizza grande — meia mussarela e meia calabresa.","modo_atendimento":"Apenas balcão e retirada."},{"nome":"2 pizzas grandes por R$ 78,90","preco_promocional":78.9,"preco_original_anunciado":96.0,"quantidade_pizzas":2,"tamanho":"G","sabores_permitidos":["Muçarela","Calabresa","Mista","Frango com milho","Portuguesa","Marguerita"],"regra_sabores":"1 sabor por pizza","desconto_anunciado_maximo_percentual":18,"restricoes":["Não inclui pizza média de chocolate."],"texto_original":"Promoção de 2 pizzas grandes; 1 sabor por pizza."},{"nome":"Sábado de promoção: compre 2 pizzas grandes especiais e ganhe 1 pizza média de chocolate","quantidade_pizzas_pagas":2,"tamanho_pizzas_pagas":"G","categoria_pizzas_pagas":"especiais","brinde":{"quantidade":1,"produto":"Pizza de chocolate","tamanho":"M"},"preco_promocional":null,"restricoes":["Limitada a 1 pizza média doce por cliente ou endereço."],"texto_original":"Compre duas pizzas grandes especiais e leve uma pizza média de chocolate."}],"notas_de_transcricao":["Os preços foram conferidos visualmente nas imagens fornecidas; confirmar com a pizzaria antes de atualizar preços de venda.","O cardápio apresenta 15 sabores tradicionais, 13 doces e 23 especiais, totalizando 51 sabores de pizza listados.","Os selos NOVO! foram preservados nos itens em que aparecem na imagem: Frango c/ ervilha, Chocolate ao leite, Oreo, Apreciata, Frango c/ cream cheese e Coca-Cola Zero 1 L.","O texto da marca do requeijão foi normalizado como Tirolez; na arte, o nome aparece em letras maiúsculas sem acento.","Os nomes dos sabores foram mantidos conforme aparecem na arte, inclusive nomes comerciais como Francheddar e Apreciata.","A promoção da pizza grande por R$ 29,99 mostra preço anterior de R$ 43,00 e é restrita a balcão/retirada.","A promoção de 2 pizzas grandes por R$ 78,90 mostra preço anterior de R$ 96,00 e anuncia desconto de até 18%.","A promoção de sábado não mostra preço; anuncia 2 pizzas grandes especiais e 1 pizza média de chocolate como brinde."]};
+let DATA = {"estabelecimento":{"nome":"Paulistano Pizzaria","slogan":"Faça seu pedido de forma rápida e fácil.","whatsapp":"5584988486763","instagram":"@paulistanopizzaria_","moeda":"BRL","observacoes":["Preços sujeitos a alteração.","Promoções diferentes podem ser combinadas, respeitando os requisitos e limites de cada oferta.","Consulte disponibilidade."],"enderecoMaps":"https://maps.app.goo.gl/frhB7bonqd8AtRt67"},"cardapio":{"pizzas":{"tradicionais":[{"mais_pedido":3,"sabor":"Frango c/ requeijão Tirolez","precos":{"P_broto":33.0,"M":41.0,"G":49.0},"descricao":"Frango desfiado e requeijão Tirolez"},{"sabor":"Frango c/ cheddar","precos":{"P_broto":33.0,"M":41.0,"G":49.0},"descricao":"Frango desfiado e cheddar"},{"sabor":"Francheddar","precos":{"P_broto":34.0,"M":43.0,"G":51.0}},{"sabor":"Frango c/ bacon","precos":{"P_broto":35.0,"M":44.0,"G":52.0},"descricao":"Frango desfiado e bacon"},{"sabor":"Frango c/ muçarela","precos":{"P_broto":30.0,"M":38.0,"G":46.0},"descricao":"Frango desfiado e muçarela"},{"sabor":"Frango c/ ervilha","precos":{"P_broto":30.0,"M":38.0,"G":46.0},"novo":true,"descricao":"Frango desfiado e ervilha"},{"sabor":"Frango c/ milho","precos":{"P_broto":30.0,"M":38.0,"G":46.0},"descricao":"Frango desfiado e milho"},{"mais_pedido":2,"sabor":"Calabresa","precos":{"P_broto":28.0,"M":35.0,"G":43.0}},{"sabor":"Calabresa c/ requeijão","precos":{"P_broto":32.0,"M":40.0,"G":48.0},"descricao":"Calabresa e requeijão"},{"sabor":"Portuguesa","precos":{"P_broto":32.0,"M":40.0,"G":48.0}},{"sabor":"Mista","precos":{"P_broto":30.0,"M":37.0,"G":45.0}},{"mais_pedido":1,"sabor":"Muçarela","precos":{"P_broto":28.0,"M":35.0,"G":43.0}},{"sabor":"Marguerita","precos":{"P_broto":32.0,"M":40.0,"G":48.0}},{"sabor":"Dois queijos","precos":{"P_broto":30.0,"M":37.0,"G":45.0}},{"sabor":"Três queijos","precos":{"P_broto":32.0,"M":40.0,"G":48.0}}],"doces":[{"sabor":"Chocolate ao leite","precos":{"P_broto":25.0,"M":41.0,"G":49.0},"novo":true},{"sabor":"Brigadeiro","precos":{"P_broto":28.0,"M":43.0,"G":51.0}},{"sabor":"Chocolate c/ M&M","precos":{"P_broto":30.0,"M":43.0,"G":51.0},"descricao":"Chocolate e confeitos M&M"},{"sabor":"Chocolate c/ morango","precos":{"P_broto":37.0,"M":47.0,"G":55.0},"descricao":"Chocolate e morango"},{"sabor":"Chocolate c/ banana","precos":{"P_broto":32.0,"M":42.0,"G":50.0},"descricao":"Chocolate e banana"},{"sabor":"Prestígio","precos":{"P_broto":32.0,"M":42.0,"G":50.0},"descricao":"Chocolate e coco"},{"sabor":"Afrodisíaca de amendoim","precos":{"P_broto":34.0,"M":44.0,"G":52.0}},{"sabor":"Nutella","precos":{"P_broto":40.0,"M":53.0,"G":61.0}},{"sabor":"Nutella c/ morango","precos":{"P_broto":47.0,"M":60.0,"G":68.0},"descricao":"Nutella e morango"},{"sabor":"Banana nevada","precos":{"P_broto":35.0,"M":50.0,"G":58.0}},{"sabor":"Romeu e Julieta","precos":{"P_broto":33.0,"M":47.0,"G":55.0},"descricao":"Goiabada e queijo"},{"sabor":"Ouro branco","precos":{"P_broto":37.0,"M":53.0,"G":61.0}},{"sabor":"Oreo","precos":{"P_broto":36.0,"M":52.0,"G":60.0},"novo":true}],"especiais":[{"sabor":"Carne de sol","precos":{"P_broto":37.0,"M":45.0,"G":53.0}},{"sabor":"Nordestina","precos":{"P_broto":40.0,"M":50.0,"G":58.0}},{"sabor":"Carne especial","precos":{"P_broto":43.0,"M":55.0,"G":63.0}},{"sabor":"Lombo aos 3 queijos","precos":{"P_broto":38.0,"M":49.0,"G":57.0}},{"sabor":"Do mestre","precos":{"P_broto":41.0,"M":53.0,"G":61.0}},{"sabor":"Bacon","precos":{"P_broto":38.0,"M":48.0,"G":56.0}},{"sabor":"Bacon c/ cheddar","precos":{"P_broto":41.0,"M":52.0,"G":60.0},"descricao":"Bacon e cheddar"},{"sabor":"Brócolis c/ muçarela","precos":{"P_broto":32.0,"M":40.0,"G":48.0},"descricao":"Brócolis e muçarela"},{"sabor":"Fit pizza","precos":{"P_broto":37.0,"M":45.0,"G":53.0}},{"sabor":"Palmito","precos":{"P_broto":37.0,"M":47.0,"G":55.0}},{"sabor":"Apreciata","precos":{"P_broto":35.0,"M":43.0,"G":51.0},"novo":true},{"sabor":"Portuguesa especial","precos":{"P_broto":39.0,"M":49.0,"G":57.0}},{"sabor":"Paulistana","precos":{"P_broto":39.0,"M":50.0,"G":58.0}},{"sabor":"Mafiosa","precos":{"P_broto":37.0,"M":47.0,"G":55.0}},{"sabor":"Baiana especial","precos":{"P_broto":35.0,"M":45.0,"G":53.0}},{"sabor":"Doritos premium","precos":{"P_broto":44.0,"M":54.0,"G":62.0}},{"sabor":"Caipira","precos":{"P_broto":40.0,"M":50.0,"G":58.0}},{"sabor":"Frango c/ cream cheese","precos":{"P_broto":40.0,"M":50.0,"G":58.0},"novo":true,"descricao":"Frango desfiado e cream cheese"},{"sabor":"Camarão","precos":{"P_broto":40.0,"M":50.0,"G":58.0}},{"sabor":"Camarão especial","precos":{"P_broto":45.0,"M":55.0,"G":63.0}},{"sabor":"Atum","precos":{"P_broto":36.0,"M":44.0,"G":52.0}},{"sabor":"Austrália","precos":{"P_broto":39.0,"M":47.0,"G":55.0}},{"sabor":"Quatro queijos","precos":{"P_broto":37.0,"M":47.0,"G":55.0}}],"observacao_tamanhos":{"P_broto":"Pizza broto/individual","M":"Pizza média","G":"Pizza grande"}},"bordas_recheadas":[{"sabor":"Requeijão Tirolez","preco":12.0},{"sabor":"Cheddar","preco":12.0},{"sabor":"Goiabada","preco":10.0},{"sabor":"Chocolate","preco":12.0},{"sabor":"Requeijão Tirolês","preco":20.0,"premium":true},{"sabor":"Chocolate ao leite","preco":20.0,"premium":true},{"sabor":"Cream cheese","preco":16.0,"premium":true}],"bebidas":[{"nome":"Coca-Cola 1 L","preco":9.0},{"nome":"Coca-Cola 2 L","preco":16.0},{"nome":"Coca-Cola Zero 1 L","preco":10.0,"novo":true},{"nome":"Guaraná Antarctica 1 L","preco":7.0},{"nome":"Pepsi 1 L","preco":7.0}],"informacoes":{"preco_inicial_pizza_broto":25.0,"texto_preco_inicial":"A partir de R$ 25,00 — tem broto individual.","tamanhos":{"P_broto":"P (broto) / individual","M":"Média","G":"Grande"},"chamadas_do_cardapio":["Faça seu pedido!","Atendimento pelo WhatsApp!","Confira nossos produtos!","Qualidade para você!","Produtos selecionados!","Aproveite nossas opções!"]}},"promocoes":[{"nome":"Pizza grande por R$ 29,99","preco_promocional":29.99,"preco_original_anunciado":43.0,"tipo":"pizza_grande_meio_a_meio","sabores":["Muçarela","Calabresa"],"descricao":"Pizza grande com meia muçarela e meia calabresa.","restricoes":["Apenas balcão e retirada."],"contato_whatsapp":"5584988486763","instagram":"@paulistanopizzaria_","texto_original":"Pizza grande — meia mussarela e meia calabresa.","modo_atendimento":"Apenas balcão e retirada."},{"nome":"2 pizzas grandes por R$ 78,90","preco_promocional":78.9,"preco_original_anunciado":96.0,"quantidade_pizzas":2,"tamanho":"G","sabores_permitidos":["Muçarela","Calabresa","Mista","Frango com milho","Portuguesa","Marguerita"],"regra_sabores":"1 sabor por pizza","desconto_anunciado_maximo_percentual":18,"restricoes":["Não inclui pizza média de chocolate."],"texto_original":"Promoção de 2 pizzas grandes; 1 sabor por pizza."},{"nome":"Sábado de promoção: compre 2 pizzas grandes especiais e ganhe 1 pizza média de chocolate","quantidade_pizzas_pagas":2,"tamanho_pizzas_pagas":"G","categoria_pizzas_pagas":"especiais","brinde":{"quantidade":1,"produto":"Pizza de chocolate","tamanho":"M"},"preco_promocional":null,"restricoes":["Limitada a 1 pizza média doce por cliente ou endereço."],"texto_original":"Compre duas pizzas grandes especiais e leve uma pizza média de chocolate."}],"notas_de_transcricao":["Os preços foram conferidos visualmente nas imagens fornecidas; confirmar com a pizzaria antes de atualizar preços de venda.","O cardápio apresenta 15 sabores tradicionais, 13 doces e 23 especiais, totalizando 51 sabores de pizza listados.","Os selos NOVO! foram preservados nos itens em que aparecem na imagem: Frango c/ ervilha, Chocolate ao leite, Oreo, Apreciata, Frango c/ cream cheese e Coca-Cola Zero 1 L.","O texto da marca do requeijão foi normalizado como Tirolez; na arte, o nome aparece em letras maiúsculas sem acento.","Os nomes dos sabores foram mantidos conforme aparecem na arte, inclusive nomes comerciais como Francheddar e Apreciata.","A promoção da pizza grande por R$ 29,99 mostra preço anterior de R$ 43,00 e é restrita a balcão/retirada.","A promoção de 2 pizzas grandes por R$ 78,90 mostra preço anterior de R$ 96,00 e anuncia desconto de até 18%.","A promoção de sábado não mostra preço; anuncia 2 pizzas grandes especiais e 1 pizza média de chocolate como brinde."]};
 
 
 // CONFIGURAÇÃO PIX DA PIZZARIA — dados confirmados da conta recebedora.
@@ -3052,6 +3190,9 @@ function buildPixPayload(config,amount){
  return payload+pixCrc16(payload);
 }
 const modalFocusReturnTargets=new WeakMap();
+// Durante a edição de sabores P2, a página de origem deve permanecer ativa.
+// Isso evita que interações internas do modal acionem a navegação do cardápio.
+let p2EditNavigationReturnPage=null;
 function rememberModalFocus(modal){
  if(!modal)return;
  const active=document.activeElement;
@@ -3259,7 +3400,7 @@ function markSaturdayGiftDecisionStale(){
  skipPendingPromotionOffersForCheckout=false;
 }
 const categories=[['tradicionais','🍕 Tradicionais'],['especiais','⭐ Especiais'],['doces','🍫 Doces'],['bebidas','🥤 Bebidas']];
-function buildProducts(){products=[];const c=DATA.cardapio||{};for(const [group,list] of Object.entries(c.pizzas||{})){if(!Array.isArray(list))continue;list.forEach((p,i)=>{if(!p||!p.sabor)return;products.push({id:'pizza-'+group+'-'+i,category:group,kind:'pizza',name:p.sabor,prices:p.precos||{},description:p.descricao||p.descrição||p.description||'',image:p.imagem||p.image||p.foto||'',isNew:p.novo===true});});}for(const group of ['bordas_recheadas']) (c[group]||[]).forEach((p,i)=>products.push({id:group+'-'+i,category:group,kind:'borda',name:p.sabor,price:Number(p.preco||0)}));(c.bebidas||[]).forEach((p,i)=>products.push({id:'bebida-'+i,category:'bebidas',kind:'bebida',name:p.nome,price:Number(p.preco||0),isNew:p.novo===true}));}
+function buildProducts(){products=[];const c=DATA.cardapio||{};for(const [group,list] of Object.entries(c.pizzas||{})){if(!Array.isArray(list))continue;list.map((p,i)=>({p,i})).sort((a,b)=>{const ra=Number(a.p&&a.p.mais_pedido)||0,rb=Number(b.p&&b.p.mais_pedido)||0;if(ra&&rb)return ra-rb;if(ra)return -1;if(rb)return 1;return a.i-b.i;}).forEach(({p,i})=>{if(!p||!p.sabor)return;products.push({id:'pizza-'+group+'-'+i,category:group,kind:'pizza',name:p.sabor,prices:p.precos||{},description:p.descricao||p.descrição||p.description||'',image:p.imagem||p.image||p.foto||'',isNew:p.novo===true,topPick:Number(p.mais_pedido)>0});});}for(const group of ['bordas_recheadas']) (c[group]||[]).forEach((p,i)=>products.push({id:group+'-'+i,category:group,kind:'borda',name:p.sabor,price:Number(p.preco||0)}));(c.bebidas||[]).forEach((p,i)=>products.push({id:'bebida-'+i,category:'bebidas',kind:'bebida',name:p.nome,price:Number(p.preco||0),isNew:p.novo===true}));}
 const SAVED_CUSTOMER_KEY='pdv_cliente_dados_v1';
 const SAVED_DISTRICT_KEY='pdv_bairro_entrega_v1';
 // RASCUNHO DO CARRINHO — armazenamento somente neste navegador/dispositivo.
@@ -3294,6 +3435,7 @@ function updateCartDraftRecoveryUI(){
  if(newOrder)newOrder.classList.toggle('hidden',!cart.length||cartDraftRecoveryPending);
  const status=document.getElementById('cartDraftStatus');
  if(status)status.textContent=cartDraftStatusMessage;
+ if(typeof updateRepeatLastOrderUI==='function')updateRepeatLastOrderUI();
 }
 function removeStoredCartDraft(){
  try{window.localStorage.removeItem(CART_DRAFT_STORAGE_KEY);return true;}
@@ -3326,7 +3468,8 @@ function persistCartDraft(){
    if(existing){const parsed=JSON.parse(existing);if(parsed&&parsed.version===CART_DRAFT_VERSION&&typeof parsed.createdAt==='string'&&Number.isFinite(Date.parse(parsed.createdAt)))createdAt=parsed.createdAt;}
   }catch(error){}
   const deliveryMode=document.getElementById('delivery')?.value==='Retirada no balcão'?'Retirada no balcão':'Entrega';
-  const snapshot={version:CART_DRAFT_VERSION,createdAt,updatedAt:now,deliveryMode,items:cart,decisions:getCartDraftDecisionState()};
+  const schedule=typeof window.getScheduleStateForDraft==='function'?window.getScheduleStateForDraft():null;
+  const snapshot={version:CART_DRAFT_VERSION,createdAt,updatedAt:now,deliveryMode,items:cart,decisions:getCartDraftDecisionState(),schedule};
   window.localStorage.setItem(CART_DRAFT_STORAGE_KEY,JSON.stringify(snapshot));
   cartDraftStorageAvailable=true;
   if(!cartDraftStatusMessage||cartDraftStatusMessage.startsWith('Pedido salvo automaticamente'))setCartDraftStatus('Pedido salvo automaticamente neste navegador.');
@@ -3395,22 +3538,52 @@ function restoreSavedCartItems(rawItems){
   const promo=(DATA.promocoes||[]).find(item=>promoCode(item)==='P2');
   const allowedNames=promo?.sabores_permitidos||['Muçarela','Calabresa','Mista','Frango com milho','Portuguesa','Marguerita'];
   const allowedProducts=products.filter(product=>product.kind==='pizza'&&allowedNames.some(name=>promoNorm(name)===promoNorm(product.name)));
-  if(p2Items.length!==2){issues.push('A promoção P2 não foi restaurada porque as duas pizzas não estavam presentes.');}
-  else{
-   const target=Number(promo?.preco_promocional??78.9);
-   const totalCents=Math.round(target*100),firstCents=Math.floor(totalCents/2);
-   let valid=true;
-   const pair=p2Items.map((source,index)=>{
-    const qty=safeDraftQty(source.qty);
+  const groups=new Map();
+  p2Items.forEach((source,index)=>{
+   const explicit=safeDraftText(source.promotionGroupId,160).trim();
+   const legacyKey=safeDraftText(source.key||source.id,160).trim();
+   const legacyMatch=/^promo-P2-([ab])-(.+)$/i.exec(legacyKey);
+   const groupKey=explicit?'id:'+explicit:(legacyMatch?'legacy:'+legacyMatch[2]:'unmatched:'+index);
+   if(!groups.has(groupKey))groups.set(groupKey,[]);
+   groups.get(groupKey).push({source,index,legacyMatch});
+  });
+  const target=Number(promo?.preco_promocional??78.9);
+  const totalCents=Math.round(target*100);
+  const firstCents=Math.floor(totalCents/2);
+  groups.forEach((entries,groupKey)=>{
+   if(entries.length!==2){
+    issues.push('Um conjunto da promoção P2 não pôde ser recuperado porque não foi possível identificar com segurança as duas pizzas correspondentes. Os demais produtos válidos foram preservados.');
+    return;
+   }
+   // Pares antigos têm chaves promo-P2-a/b-<timestamp>; respeita a ordem a/b.
+   entries.sort((a,b)=>{
+    const aOrder=a.legacyMatch?.[1]?.toLowerCase()==='a'?0:1;
+    const bOrder=b.legacyMatch?.[1]?.toLowerCase()==='a'?0:1;
+    return aOrder-bOrder||a.index-b.index;
+   });
+   const qtyA=safeDraftQty(entries[0].source.qty),qtyB=safeDraftQty(entries[1].source.qty);
+   let valid=!!qtyA&&qtyA===qtyB;
+   const pair=entries.map((entry,index)=>{
+    const source=entry.source;
     const flavor=Array.isArray(source.flavors)&&source.flavors.length===1?allowedProducts.find(product=>promoNorm(product.name)===promoNorm(source.flavors[0])):null;
     const border=source.border?findCurrentBorderByName(source.border):null;
-    if(qty!==1||!flavor||(source.border&&!border)){valid=false;return null;}
+    if(!flavor||(source.border&&!border)){valid=false;return null;}
     const basePrice=(index===0?firstCents:totalCents-firstCents)/100;
     const borderPrice=border?roundMoney(border.price):0;
-    return copyCommon(source,{key:stableKey(source,index),id:stableKey(source,index),name:flavor.name,category:flavor.category,kind:'pizza',size:'G',price:roundMoney(basePrice+borderPrice),basePrice,borderPrice,border:border?border.name:'',flavors:[flavor.name],flavorIds:[flavor.id],flavorCategories:[flavor.category],qty:1,detail:'Promoção P2',promotionCode:'P2'});
+    const key=stableKey(source,entry.index);
+    const fallbackGroup='promo-P2-migrated-'+(entries[0].legacyMatch?.[2]||Date.now()+'-'+entries[0].index);
+    const promotionGroupId=safeDraftText(source.promotionGroupId,160).trim()||fallbackGroup;
+    return copyCommon(source,{key,id:key,name:flavor.name,category:flavor.category,kind:'pizza',size:'G',price:roundMoney(basePrice+borderPrice),basePrice,borderPrice,border:border?border.name:'',flavors:[flavor.name],flavorIds:[flavor.id],flavorCategories:[flavor.category],qty:qtyA,detail:'Promoção P2',promotionCode:'P2',promotionGroupId});
    });
-   if(valid)restored.push(...pair);else issues.push('A promoção P2 foi removida porque um sabor, uma borda ou uma quantidade não corresponde mais ao cardápio atual.');
-  }
+   if(valid&&pair.every(Boolean)){
+    // Normaliza também identificadores iguais em um par migrado.
+    const groupId=pair[0].promotionGroupId;
+    pair.forEach(item=>item.promotionGroupId=groupId);
+    restored.push(...pair);
+   }else{
+    issues.push('Um conjunto da promoção P2 foi ignorado porque um sabor, uma borda ou a quantidade das duas pizzas não corresponde ao conjunto completo. Os demais produtos válidos foram preservados.');
+   }
+  });
  }
  rawItems.forEach((source,index)=>{
   if(!source||typeof source!=='object'||Array.isArray(source)){issues.push('Um item com estrutura inválida foi ignorado.');return;}
@@ -3452,15 +3625,17 @@ function restoreSavedCartItems(rawItems){
    }
    if(source.weekdayGiftType==='borda'){
     const border=findCurrentBorderByName(source.weekdayBorderName||source.weekdayGiftName);
-    if(!border||!['requeijão tirolez','cheddar'].includes(promoNorm(border.name))||!eligibleKey){issues.push('A borda grátis foi removida porque a opção não corresponde às bordas autorizadas ou a pizza de referência não está mais disponível.');return;}
+    if(!border||!getWeekdayEligibleBorders().some(option=>option.id===border.id)||!eligibleKey){issues.push('A borda grátis foi removida porque a opção não corresponde às bordas autorizadas ou a pizza de referência não está mais disponível.');return;}
     restored.push(copyCommon(source,{key:stableKey(source,index),id:stableKey(source,index),name:'Borda recheada (BRINDE GRÁTIS)',category:'bordas_recheadas',kind:'borda',price:0,qty:1,detail:`Borda grátis escolhida: ${border.name} — PROMOÇÃO TERÇA A QUINTA (BROTO GRÁTIS; somente requeijão ou cheddar)`,promotionCode:'P4',isWeekdayGift:true,weekdayGiftType:'borda',weekdayGiftName:`Borda recheada: ${border.name}`,weekdayEligiblePizzaKey:eligibleKey,weekdayEligiblePizzaName:eligibleName,weekdayBorderName:border.name}));return;
    }
    issues.push('Um brinde Broto Grátis com tipo não reconhecido foi ignorado.');return;
   }
   if(source.isSuperSextouGift){
-   const name=safeDraftText(source.superSextouGiftName||source.name,80);
-   if(!['Pepsi 1 litro','Guaraná Antarctica 1 litro'].includes(name)){issues.push('O brinde Super Sextou foi removido porque a bebida salva não corresponde às opções atuais.');return;}
-   restored.push(copyCommon(source,{key:stableKey(source,index),id:stableKey(source,index),name,category:'bebidas',kind:'bebida',price:0,qty:1,detail:'CORTESIA — SUPER SEXTOU',promotionCode:'P5',isSuperSextouGift:true,superSextouGiftName:name}));return;
+   const savedName=safeDraftText(source.superSextouGiftName||source.name,80);
+   const drink=findRegisteredDrinkByName(savedName);
+   const allowed=drink&&['pepsi 1 litro','guarana antarctica 1 litro'].includes(normalizeDrinkName(drink.name));
+   if(!allowed){issues.push('O brinde Super Sextou foi removido porque a bebida salva não corresponde às duas opções de 1 litro cadastradas.');return;}
+   restored.push(copyCommon(source,{key:stableKey(source,index),id:stableKey(source,index),name:drink.name,category:'bebidas',kind:'bebida',price:0,qty:1,detail:'CORTESIA — SUPER SEXTOU',promotionCode:'P5',isSuperSextouGift:true,superSextouGiftName:drink.name}));return;
   }
   if(source.isSundayGift){
    restored.push(copyCommon(source,{key:stableKey(source,index),id:stableKey(source,index),name:'Coca-Cola 1 L',category:'bebidas',kind:'bebida',price:0,qty:1,detail:'BRINDE — DOMINGO PREMIADO',promotionCode:'P6',isSundayGift:true,sundayGiftName:'Coca-Cola 1 L'}));return;
@@ -3517,6 +3692,9 @@ function recoverCartDraft(){
  }
  const previousCart=cart;
  cart=result.items;
+ const savedDeliveryFallback=snapshot.deliveryMode==='Retirada no balcão'?'Retirada no balcão':'Entrega';
+ const scheduleRestore=typeof window.restoreScheduleFromDraft==='function'?window.restoreScheduleFromDraft(snapshot.schedule,savedDeliveryFallback):{valid:true,confirmed:false,delivery:savedDeliveryFallback,issue:''};
+ if(scheduleRestore&&scheduleRestore.issue)result.issues.push(scheduleRestore.issue);
  if(!validateCartPromotionCompatibility(false)){
   cart=previousCart;
   const recoveryError=document.getElementById('cartDraftRecoveryError');
@@ -3532,7 +3710,7 @@ function recoverCartDraft(){
  sundayGiftDecision=['accepted','declined'].includes(decisions.sundayGiftDecision)?decisions.sundayGiftDecision:null;
  saturdayGiftConfirmationPending=false;weekdayGiftSelectionActive=false;superSextouGiftModalPending=false;sundayGiftModalPending=false;
  saturdayPromoSnapshot={eligibleCount:0};
- const deliveryMode=snapshot.deliveryMode==='Retirada no balcão'?'Retirada no balcão':'Entrega';
+ const deliveryMode=scheduleRestore&&scheduleRestore.valid&&scheduleRestore.confirmed?scheduleRestore.delivery:savedDeliveryFallback;
  const delivery=document.getElementById('delivery');if(delivery)delivery.value=deliveryMode;
  if(cart.some(item=>item&&item.promotionCode==='P1')&&delivery)delivery.value='Retirada no balcão';
  syncDeliverySelectionUI(delivery?.value);
@@ -3542,6 +3720,7 @@ function recoverCartDraft(){
  closePixPaymentModal();pixModalPayload='';pixModalAmount=0;
  // Reavalie benefícios no dia atual, sem reutilizar qualquer estado de pagamento anterior.
  saturdayPromoSnapshot.eligibleCount=isSaturdayPromoDay()?countSaturdaySpecialLargePizzas():0;
+ renderPromotions(typeof window.getEffectiveDateTime==='function'?window.getEffectiveDateTime():new Date());
  revalidateSaturdayPromotion();revalidateWeekdayGiftPromotion();revalidateSuperSextouPromotion();revalidateSundayPromotion();
  if(!validateCartPromotionCompatibility(false)){
   cart=previousCart;
@@ -3578,6 +3757,122 @@ function bindCartDraftRecovery(){
  document.getElementById('recoverCartDraft')?.addEventListener('click',recoverCartDraft);
  document.getElementById('discardCartDraft')?.addEventListener('click',discardCartDraft);
  document.getElementById('startNewOrder')?.addEventListener('click',startNewOrderExplicitly);
+ document.getElementById('repeatLastOrderButton')?.addEventListener('click',repeatLastOrder);
+}
+const LAST_ORDER_KEY='pdv_ultimo_pedido_v1';
+const LAST_ORDER_MAX_AGE_MS=60*24*60*60*1000;
+function readLastOrder(){
+ try{
+  const raw=window.localStorage.getItem(LAST_ORDER_KEY);if(!raw)return null;
+  const data=JSON.parse(raw);
+  if(!data||data.version!==1||!Array.isArray(data.items)||!data.items.length||data.items.length>100)return null;
+  const age=Date.now()-Date.parse(data.savedAt);
+  if(!Number.isFinite(age)||age<0||age>LAST_ORDER_MAX_AGE_MS)return null;
+  return data;
+ }catch(error){return null;}
+}
+function saveLastOrder(sourceItems=cart,deliveryModeOverride=null){
+ try{
+  const items=(Array.isArray(sourceItems)?sourceItems:[]).filter(item=>item&&!(item.isSaturdayGift||item.isWeekdayGift||item.isSuperSextouGift||item.isSundayGift));
+  if(!items.length)return false;
+  const deliveryMode=deliveryModeOverride==='Retirada no balcão'||(!deliveryModeOverride&&document.getElementById('delivery')?.value==='Retirada no balcão')?'Retirada no balcão':'Entrega';
+  window.localStorage.setItem(LAST_ORDER_KEY,JSON.stringify({version:1,savedAt:new Date().toISOString(),deliveryMode,items}));
+  return true;
+ }catch(error){return false;}
+}
+function updateRepeatLastOrderUI(){
+ const box=document.getElementById('repeatLastOrder');if(!box)return;
+ const last=(!cart.length&&!cartDraftRecoveryPending)?readLastOrder():null;
+ box.classList.toggle('hidden',!last);
+ const summary=document.getElementById('repeatLastOrderSummary');
+ if(last&&summary){
+  const names=last.items.slice(0,3).map(item=>(Number(item.qty)>1?item.qty+'× ':'')+String(item.name||'').slice(0,40));
+  summary.textContent=names.join(', ')+(last.items.length>3?' e mais '+(last.items.length-3):'');
+ }
+}
+function repeatLastOrder(){
+ const last=readLastOrder();
+ if(!last||cart.length||cartDraftRecoveryPending)return;
+ let result;
+ try{result=restoreSavedCartItems(last.items);}
+ catch(error){setCartDraftStatus('Não foi possível repetir o último pedido: '+(error?.message||'itens indisponíveis.'));return;}
+ const previousCart=cart;
+ cart=result.items;
+ saturdayGiftDeclinedForCheckout=false;saturdayGiftConfirmedForCheckout=false;weekdayGiftDeclinedForCheckout=false;superSextouGiftDecision=null;sundayGiftDecision=null;
+ saturdayGiftConfirmationPending=false;weekdayGiftSelectionActive=false;superSextouGiftModalPending=false;sundayGiftModalPending=false;
+ saturdayPromoSnapshot={eligibleCount:isSaturdayPromoDay()?countSaturdaySpecialLargePizzas():0};
+ const delivery=document.getElementById('delivery');if(delivery)delivery.value=last.deliveryMode==='Retirada no balcão'?'Retirada no balcão':'Entrega';
+ if(cart.some(item=>item&&item.promotionCode==='P1')&&delivery)delivery.value='Retirada no balcão';
+ syncDeliverySelectionUI(delivery?.value);
+ const payment=document.getElementById('payment');if(payment)payment.value='';
+ const change=document.getElementById('change');if(change)change.value='';
+ const changeField=document.getElementById('changeField');if(changeField)changeField.classList.add('hidden');
+ closePixPaymentModal();pixModalPayload='';pixModalAmount=0;
+ revalidateSaturdayPromotion();revalidateWeekdayGiftPromotion();revalidateSuperSextouPromotion();revalidateSundayPromotion();
+ if(!validateCartPromotionCompatibility(false)){
+  cart=previousCart;setCartDraftStatus('Não foi possível repetir o pedido: as promoções dele não valem mais hoje.');renderCart();updateRepeatLastOrderUI();return;
+ }
+ setCartDraftStatus(result.issues.length?'Pedido repetido com ajustes: '+result.issues.join(' '):'Último pedido adicionado. Confira os valores e a forma de pagamento.');
+ renderCart();updateRepeatLastOrderUI();
+ switchNavigationPage('cart');
+}
+const PENDING_WHATSAPP_ORDER_KEY='pdv_envio_whatsapp_pendente_v1';
+let pendingWhatsAppOrderMemory=null;
+function readPendingWhatsAppOrder(){
+ try{const raw=window.localStorage.getItem(PENDING_WHATSAPP_ORDER_KEY);if(raw){const value=JSON.parse(raw);if(value&&value.version===1&&Array.isArray(value.items)&&value.items.length)return value;}}catch(error){}
+ return pendingWhatsAppOrderMemory;
+}
+function savePendingWhatsAppOrder(snapshot){
+ pendingWhatsAppOrderMemory=snapshot;
+ try{window.localStorage.setItem(PENDING_WHATSAPP_ORDER_KEY,JSON.stringify(snapshot));return true;}catch(error){return false;}
+}
+function clearPendingWhatsAppOrder(){
+ pendingWhatsAppOrderMemory=null;
+ try{window.localStorage.removeItem(PENDING_WHATSAPP_ORDER_KEY);return true;}catch(error){return false;}
+}
+function ensurePendingWhatsAppModal(){
+ let modal=document.getElementById('pendingWhatsAppModal');
+ if(modal)return modal;
+ modal=document.createElement('div');modal.id='pendingWhatsAppModal';modal.className='modal-backdrop hidden';modal.setAttribute('role','presentation');modal.setAttribute('aria-hidden','true');
+ modal.innerHTML=`<section class="pending-whatsapp-card" role="dialog" aria-modal="true" aria-labelledby="pendingWhatsAppTitle"><h2 id="pendingWhatsAppTitle">Pedido preparado no WhatsApp</h2><p>Seu pedido foi preparado no WhatsApp. Depois de enviar a mensagem, volte aqui para concluir.</p><div class="pending-whatsapp-actions"><button type="button" id="pendingWhatsAppConfirm" class="pending-whatsapp-confirm">Já enviei o pedido</button><button type="button" id="pendingWhatsAppReturn" class="pending-whatsapp-return">Voltar ao carrinho</button></div></section>`;
+ document.body.appendChild(modal);
+ modal.querySelector('#pendingWhatsAppConfirm')?.addEventListener('click',confirmPendingWhatsAppOrder);
+ modal.querySelector('#pendingWhatsAppReturn')?.addEventListener('click',returnToCartFromPendingWhatsApp);
+ return modal;
+}
+function showPendingWhatsAppModal(){
+ const pending=readPendingWhatsAppOrder();if(!pending)return false;
+ const modal=ensurePendingWhatsAppModal();modal.classList.remove('hidden');modal.setAttribute('aria-hidden','false');document.body.classList.add('modal-open');
+ const confirm=modal.querySelector('#pendingWhatsAppConfirm');if(confirm){confirm.disabled=false;confirm.focus({preventScroll:true});}
+ return true;
+}
+function hidePendingWhatsAppModal(){
+ const modal=document.getElementById('pendingWhatsAppModal');if(modal){modal.classList.add('hidden');modal.setAttribute('aria-hidden','true');}
+ if(typeof syncModalBodyLock==='function')syncModalBodyLock();else document.body.classList.remove('modal-open');
+}
+function confirmPendingWhatsAppOrder(){
+ const pending=readPendingWhatsAppOrder();if(!pending||pending.confirmed)return;
+ const button=document.getElementById('pendingWhatsAppConfirm');if(button)button.disabled=true;
+ if(!saveLastOrder(pending.items,pending.deliveryMode)){if(button)button.disabled=false;alert('Não foi possível salvar a cópia do último pedido neste navegador. Seu carrinho foi mantido.');return;}
+ clearPendingWhatsAppOrder();
+ cart=[];removeStoredCartDraft();pendingCartDraft=null;cartDraftRecoveryPending=false;
+ hidePendingWhatsAppModal();
+ setCartDraftStatus('Pedido concluído por sua confirmação. O último pedido está disponível para repetição.');
+ renderCart();updateCartDraftRecoveryUI();switchNavigationPage('cart');
+}
+function returnToCartFromPendingWhatsApp(){
+ if(!readPendingWhatsAppOrder())return;
+ clearPendingWhatsAppOrder();hidePendingWhatsAppModal();lastOrderOpenTimestamp=0;
+ setCartDraftStatus('Você voltou ao carrinho. Os produtos e dados do pedido foram mantidos para edição ou novo envio.');
+ if(typeof switchNavigationPage==='function')switchNavigationPage('cart');
+ renderCart();
+}
+function initializePendingWhatsAppOrderUI(){
+ if(readPendingWhatsAppOrder())showPendingWhatsAppModal();
+}
+function finishOrderAfterWhatsApp(){
+ // Compatibilidade: a conclusão agora depende da ação explícita do cliente.
+ return confirmPendingWhatsAppOrder();
 }
 function getSavedDistrict(){
  try{
@@ -3695,8 +3990,13 @@ function renderStoreInformation(){
  if(mapsHref)links.push(`<span>📍 <a href="${esc(mapsHref)}" target="_blank" rel="noopener noreferrer">Endereço da loja no Google Maps</a></span>`);
  host.innerHTML=(observations?`<div>${observations}</div>`:'')+(links.length?`<div class="store-info-contact">${links.join('')}</div>`:'');
 }
-function init(){bindSavedCustomer();bindDistrictPicker();bindPixPaymentModal();bindSuperSextouGiftModal();bindSundayGiftModal();bindPromotionCheckoutModal();bindCartDraftRecovery();STORE=DATA.estabelecimento||{};document.title=(STORE.nome||'Faça seu pedido')+' — Pedidos';document.body.dataset.page=document.body.dataset.page||'menu';document.getElementById('storeName').textContent=STORE.nome||'Faça seu pedido';document.getElementById('storeSlogan').textContent=STORE.slogan||'Escolha seus favoritos e peça pelo WhatsApp.';renderStoreInformation();buildProducts();initializeCartDraftRecovery();renderPromotions();renderTabs();renderProducts();bindPromoModal();bindSaturdayGiftConfirmation();renderCart();updateStoreStatus();window.setInterval(updateStoreStatus,30000);window.setInterval(()=>renderPromotions(),60000);}
+function init(){bindSavedCustomer();bindDistrictPicker();bindPixPaymentModal();bindSuperSextouGiftModal();bindSundayGiftModal();bindPromotionCheckoutModal();bindCartDraftRecovery();STORE=DATA.estabelecimento||{};document.title=(STORE.nome||'Faça seu pedido')+' — Pedidos';document.body.dataset.page=document.body.dataset.page||'menu';document.getElementById('storeName').textContent=STORE.nome||'Faça seu pedido';document.getElementById('storeSlogan').textContent=STORE.slogan||'Escolha seus favoritos e peça pelo WhatsApp.';renderStoreInformation();buildProducts();initializeCartDraftRecovery();renderPromotions();renderTabs();renderProducts();bindPromoModal();bindSaturdayGiftConfirmation();renderCart();updateStoreStatus();initializePendingWhatsAppOrderUI();window.setInterval(updateStoreStatus,30000);window.setInterval(()=>renderPromotions(),60000);}
 function promoNorm(s){return String(s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase('pt-BR').replace(/\s+/g,' ').replace(/\s*\/\s*/g,' ').replace(/\bc\b/g,'com').trim();}
+// Normalização compartilhada para equivalências de volume sem confundir outros tamanhos.
+function normalizeDrinkName(value){return promoNorm(value).replace(/\b1\s*(?:l|litro|litros)\b/g,'1 litro').replace(/\s+/g,' ').trim();}
+function findRegisteredDrinkByName(name){const normalized=normalizeDrinkName(name);return products.find(product=>product&&product.kind==='bebida'&&normalizeDrinkName(product.name)===normalized)||null;}
+function getP2GroupIdentifier(item){if(!item||String(item.promotionCode||'').toUpperCase()!=='P2')return '';const explicit=safeDraftText(item.promotionGroupId,160).trim();if(explicit)return explicit;const key=safeDraftText(item.key||item.id,160).trim();const legacy=/^promo-P2-[ab]-(.+)$/i.exec(key);return legacy?'legacy-promo-P2-'+legacy[1]:key;}
+function getP2GroupItems(item){const groupId=getP2GroupIdentifier(item);if(!groupId)return item?[item]:[];return cart.filter(entry=>entry&&String(entry.promotionCode||'').toUpperCase()==='P2'&&getP2GroupIdentifier(entry)===groupId);}
 function promoCode(p){if(p.tipo==='pizza_grande_meio_a_meio'||p.nome==='Pizza grande por R$ 29,99')return 'P1';if(p.nome==='2 pizzas grandes por R$ 78,90')return 'P2';if(String(p.nome||'').startsWith('Sábado de promoção'))return 'P3';return null;}
 const PROMOTION_LABELS={P1:'Pizza grande por R$ 29,99',P2:'2 pizzas grandes por R$ 78,90',P3:'Promoção de sábado',P4:'Broto Grátis',P5:'Super Sextou',P6:'Domingo Premiado'};
 function getCartItemPromotionCode(item){
@@ -3775,15 +4075,34 @@ function finishWeekdayGiftSelection(){
  weekdayGiftSelectionActive=false;
  if(cart.length)persistCartDraft();
 }
-function bindPromoModal(){const close=()=>closePromoModal();const modal=document.getElementById('promoModal');document.getElementById('promoModalClose').onclick=close;document.getElementById('promoModalCancel').onclick=close;modal.addEventListener('click',e=>{if(e.target===modal)close();});document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!modal.classList.contains('hidden'))close();});}
+function bindPromoModal(){
+ const close=()=>closePromoModal();
+ const modal=document.getElementById('promoModal');
+ document.getElementById('promoModalClose').onclick=close;
+ document.getElementById('promoModalCancel').onclick=close;
+ // Cliques no conteúdo flutuante não devem alcançar listeners externos de navegação.
+ modal.addEventListener('click',event=>{
+  if(event.target===modal){close();return;}
+  event.stopPropagation();
+ });
+ // Selects do modal também não propagam mudanças para controles da página por trás.
+ ['change','input'].forEach(type=>modal.addEventListener(type,event=>event.stopPropagation()));
+ document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!modal.classList.contains('hidden'))close();});
+}
 function showPromoModal(code,title,body,confirmText){const modal=document.getElementById('promoModal');rememberModalFocus(modal);document.getElementById('promoModalTitle').textContent=title;document.getElementById('promoModalBody').innerHTML=body;document.getElementById('promoModalCancel').textContent='Cancelar';document.getElementById('promoModalConfirm').textContent=confirmText||'Adicionar ao pedido';document.getElementById('promoModalConfirm').disabled=false;modal.classList.remove('hidden');modal.setAttribute('aria-hidden','false');document.body.classList.add('modal-open');const cancel=document.getElementById('promoModalCancel');if(cancel)cancel.focus({preventScroll:true});}
 function closePromoModal(resolveWeekdayDecision=false){
  const modal=document.getElementById('promoModal');
+ const p2PageToRestore=p2EditNavigationReturnPage;
+ p2EditNavigationReturnPage=null;
  const wasWeekdaySelection=weekdayGiftSelectionActive;
  const wasCheckoutSelection=wasWeekdaySelection&&weekdayGiftContinueAfterSelection&&promotionCheckoutFlowActive;
  const acceptedWeekdayGift=wasWeekdaySelection&&cart.some(item=>item&&item.isWeekdayGift);
  finishWeekdayGiftSelection();
  modal.classList.add('hidden');modal.setAttribute('aria-hidden','true');syncModalBodyLock();restoreModalFocus(modal);
+ // A edição começou no carrinho: restaura essa mesma página ao fechar/salvar o modal.
+ if(p2PageToRestore&&typeof switchNavigationPage==='function'&&typeof activeNavigationPage!=='undefined'&&activeNavigationPage!==p2PageToRestore){
+  switchNavigationPage(p2PageToRestore);
+ }
  if(wasWeekdaySelection)weekdayGiftContinueAfterSelection=false;
  if(wasCheckoutSelection&&(resolveWeekdayDecision||acceptedWeekdayGift)){
   promotionCheckoutResolvedCodes.add('P4');continuePromotionCheckoutFlow();
@@ -3795,7 +4114,7 @@ function closePromoModal(resolveWeekdayDecision=false){
 function promoBorderOptions(id){return `<select id="${id}"><option value="">Sem borda</option>${borderOptionMarkup()}</select>`;}
 function promoField(id,label,options){return `<div class="promo-form-field"><label for="${id}">${label}</label><select id="${id}">${options}</select></div>`;}
 function promoPizzaProducts(category){return products.filter(p=>p.kind==='pizza'&&p.category===category);}
-function promoSelectOptions(list,size,includePrice=true){return list.map(p=>`<option value="${p.id}">${esc(p.name)}${includePrice?' — '+money(Number(p.prices[size]||0)):''}</option>`).join('');}
+function promoSelectOptions(list,size,includePrice=true,selectedId=''){return list.map(p=>`<option value="${p.id}" ${selectedId&&p.id===selectedId?'selected':''}>${esc(p.name)}${includePrice?' — '+money(Number(p.prices[size]||0)):''}</option>`).join('');}
 function getCartDeliveryRestrictedPromotions(){
  const appliedCodes=new Set(getAppliedPromotionCodes());
  return (DATA.promocoes||[]).filter(promo=>{
@@ -3834,7 +4153,7 @@ function syncDeliverySelectionUI(deliveryValue){
  if(pickupInfo)pickupInfo.hidden=!isPickup;
  if(isPickup&&typeof closeDistrictPicker==='function')closeDistrictPicker();
 }
-function openPromoModal(code){if(code&&!canApplyPromotion(code))return;const promo=(DATA.promocoes||[]).find(p=>promoCode(p)===code)||{};const confirm=document.getElementById('promoModalConfirm');if(code==='P4'){openWeekdayGiftPromoModal();return;}if(code==='P1'&&document.getElementById('delivery').value==='Entrega'){if(!window.confirm('Deseja alterar a modalidade do pedido para Retirada no balcão?'))return;document.getElementById('delivery').value='Retirada no balcão';syncDeliverySelectionUI('Retirada no balcão');renderCart();}
+function openPromoModal(code,editGroupId=null){if(code&&!editGroupId&&!canApplyPromotion(code))return;const promo=(DATA.promocoes||[]).find(p=>promoCode(p)===code)||{};const confirm=document.getElementById('promoModalConfirm');if(code==='P4'){openWeekdayGiftPromoModal();return;}if(code==='P1'&&document.getElementById('delivery').value==='Entrega'){if(!window.confirm('Deseja alterar a modalidade do pedido para Retirada no balcão?'))return;document.getElementById('delivery').value='Retirada no balcão';syncDeliverySelectionUI('Retirada no balcão');renderCart();}
  if(code==='P1'){
   const base=Number(promo.preco_promocional??29.99);
   const flavorOptions='<option value="" selected disabled>Selecione o sabor</option><option value="half">Meia mussarela e meia calabresa</option><option value="calabresa">Inteira de calabresa</option>';
@@ -3905,7 +4224,97 @@ function openPromoModal(code){if(code&&!canApplyPromotion(code))return;const pro
   };
   return;
  }
- if(code==='P2'){const allowedNames=promo.sabores_permitidos||['Muçarela','Calabresa','Mista','Frango com milho','Portuguesa','Marguerita'];const allowed=promoPizzaProducts('tradicionais').filter(p=>allowedNames.some(n=>promoNorm(n)===promoNorm(p.name)));const target=Number(promo.preco_promocional??78.9);if(!allowed.length){alert('Os sabores desta promoção não foram encontrados no cardápio.');return;}const opts=promoSelectOptions(allowed,'G');const body=`<p class="promo-help">Escolha um sabor para cada pizza grande. O valor promocional cobre as duas pizzas. Escolha as bordas opcionais e confira o total antes de adicionar.</p>${promoField('p2-flavor-1','Pizza 1 · Grande',opts)}${promoField('p2-border-1','Borda da pizza 1 (opcional)',promoBorderOptions('p2-border-1').replace(/^<select id="p2-border-1">|<\/select>$/g,''))}${promoField('p2-flavor-2','Pizza 2 · Grande',opts)}${promoField('p2-border-2','Borda da pizza 2 (opcional)',promoBorderOptions('p2-border-2').replace(/^<select id="p2-border-2">|<\/select>$/g,''))}<div class="promo-preview" id="p2-preview"></div>`;showPromoModal(code,'2 pizzas grandes por R$ 78,90',body,'Adicionar promoção');const b1=document.getElementById('p2-border-1'),b2=document.getElementById('p2-border-2');const f1=document.getElementById('p2-flavor-1'),f2=document.getElementById('p2-flavor-2');function update(){const a=allowed.find(p=>p.id===f1.value),b=allowed.find(p=>p.id===f2.value),x=getBorders().find(border=>border.id===b1.value),y=getBorders().find(border=>border.id===b2.value);const normalA=getFlavorPrice(a,'G'),normalB=getFlavorPrice(b,'G');const normalKnown=normalA!==null&&normalB!==null;const normalTotal=normalKnown?roundMoney(normalA+normalB):null;const saving=normalKnown?roundMoney(normalTotal-target):null;const savingsMarkup=saving>0?`<span>Preço normal dos sabores</span><strong>${money(normalTotal)}</strong><span>Economia nesta combinação</span><strong>${money(saving)}</strong>`:normalKnown?`<span>Economia nesta combinação</span><strong>Não há economia para estes sabores.</strong>`:`<span>Economia</span><strong>Selecione os dois sabores para calcular.</strong>`;const borderTotal=roundMoney((x?x.price:0)+(y?y.price:0));document.getElementById('p2-preview').innerHTML=`<span>Preço promocional das duas pizzas</span><strong>${money(target)}</strong>${savingsMarkup}<span>Bordas adicionais</span><strong>${money(borderTotal)}</strong><span class="preview-total">Total com bordas</span><strong class="preview-total">${money(target+borderTotal)}</strong>`;}[f1,f2,b1,b2].forEach(e=>e.addEventListener('change',update));update();confirm.onclick=()=>{if(!canApplyPromotion('P2'))return;const a=allowed.find(p=>p.id===document.getElementById('p2-flavor-1').value),b=allowed.find(p=>p.id===document.getElementById('p2-flavor-2').value);if(!a||!b){alert('Escolha os dois sabores.');return;}const br1=getBorders().find(x=>x.id===b1.value),br2=getBorders().find(x=>x.id===b2.value);const bp1=br1?roundMoney(br1.price):0,bp2=br2?roundMoney(br2.price):0;const cents=Math.round(target*100),first=Math.floor(cents/2),now=Date.now(),base1=first/100,base2=(cents-first)/100;markSaturdayGiftDecisionStale();cart.push({key:'promo-P2-a-'+now,id:'promo-P2-a-'+now,name:a.name,category:a.category,kind:'pizza',size:'G',price:roundMoney(base1+bp1),basePrice:base1,borderPrice:bp1,border:br1?br1.name:'',flavors:[a.name],qty:1,detail:'Promoção P2',promotionCode:'P2'},{key:'promo-P2-b-'+now,id:'promo-P2-b-'+now,name:b.name,category:b.category,kind:'pizza',size:'G',price:roundMoney(base2+bp2),basePrice:base2,borderPrice:bp2,border:br2?br2.name:'',flavors:[b.name],qty:1,detail:'Promoção P2',promotionCode:'P2'});closePromoModal();renderCart();showProductAddedToast('Produtos adicionados ao carrinho');return;};return;}
+ if(code==='P2'){
+  const allowedNames=promo.sabores_permitidos||['Muçarela','Calabresa','Mista','Frango com milho','Portuguesa','Marguerita'];
+  const allowed=promoPizzaProducts('tradicionais').filter(p=>allowedNames.some(n=>promoNorm(n)===promoNorm(p.name)));
+  const target=Number(promo.preco_promocional??78.9);
+  if(!allowed.length){alert('Os sabores desta promoção não foram encontrados no cardápio.');return;}
+  const editingGroup=editGroupId?cart.filter(entry=>entry&&String(entry.promotionCode||'').toUpperCase()==='P2'&&getP2GroupIdentifier(entry)===String(editGroupId)):null;
+  if(editGroupId&&(!editingGroup||editingGroup.length!==2)){
+   p2EditNavigationReturnPage=null;
+   showFloatingNotice('Não foi possível editar este conjunto P2 porque ele não está completo. Remova-o e adicione a promoção novamente.',true);
+   return;
+  }
+  if(editingGroup){
+   // Usa a página ativa da navegação como fonte de verdade (o body pode estar defasado).
+   p2EditNavigationReturnPage=typeof activeNavigationPage!=='undefined'&&['menu','cart'].includes(activeNavigationPage)
+    ?activeNavigationPage
+    :(document.body.dataset.page==='cart'?'cart':'menu');
+  }
+  const currentFlavorId=entry=>{
+   const storedId=Array.isArray(entry.flavorIds)&&entry.flavorIds.length?entry.flavorIds[0]:'';
+   if(storedId&&allowed.some(product=>product.id===storedId))return storedId;
+   const currentName=Array.isArray(entry.flavors)&&entry.flavors.length?entry.flavors[0]:entry.name;
+   return allowed.find(product=>promoNorm(product.name)===promoNorm(currentName))?.id||'';
+  };
+  const initialFlavor1=editingGroup?currentFlavorId(editingGroup[0]):'';
+  const initialFlavor2=editingGroup?currentFlavorId(editingGroup[1]):'';
+  const opts1=promoSelectOptions(allowed,'G',true,initialFlavor1);
+  const opts2=promoSelectOptions(allowed,'G',true,initialFlavor2);
+  const editing=!!editingGroup;
+  const body=editing
+   ?`<p class="promo-help">Escolha os sabores das duas pizzas. As bordas e a quantidade do conjunto serão mantidas.</p>${promoField('p2-flavor-1','Pizza 1 · sabor',opts1)}${promoField('p2-flavor-2','Pizza 2 · sabor',opts2)}<div class="promo-preview" id="p2-preview"><span>Bordas atuais</span><strong>${esc(editingGroup.map((entry,index)=>`Pizza ${index+1}: ${entry.border||'Sem borda'}`).join(' · '))}</strong></div>`
+   :`<p class="promo-help">Escolha um sabor para cada pizza grande. O valor promocional cobre as duas pizzas. Escolha as bordas opcionais e confira o total antes de adicionar.</p>${promoField('p2-flavor-1','Pizza 1 · Grande',opts1)}${promoField('p2-border-1','Borda da pizza 1 (opcional)',promoBorderOptions('p2-border-1').replace(/^<select id="p2-border-1">|<\/select>$/g,''))}${promoField('p2-flavor-2','Pizza 2 · Grande',opts2)}${promoField('p2-border-2','Borda da pizza 2 (opcional)',promoBorderOptions('p2-border-2').replace(/^<select id="p2-border-2">|<\/select>$/g,''))}<div class="promo-preview" id="p2-preview"></div>`;
+  showPromoModal(code,editing?'Editar sabores · Promoção P2':'2 pizzas grandes por R$ 78,90',body,editing?'Salvar alterações':'Adicionar promoção');
+  const f1=document.getElementById('p2-flavor-1'),f2=document.getElementById('p2-flavor-2');
+  if(editing){
+   confirm.onclick=()=>{
+    const groupNow=cart.filter(entry=>entry&&String(entry.promotionCode||'').toUpperCase()==='P2'&&getP2GroupIdentifier(entry)===String(editGroupId));
+    if(groupNow.length!==2){alert('O conjunto não está mais completo. Feche e tente novamente.');return;}
+    const selected=[allowed.find(product=>product.id===f1.value),allowed.find(product=>product.id===f2.value)];
+    if(selected.some(product=>!product)){alert('Escolha os dois sabores.');return;}
+    const totalCents=Math.round(target*100),baseCents1=Math.floor(totalCents/2),basePrices=[baseCents1/100,(totalCents-baseCents1)/100];
+    markSaturdayGiftDecisionStale();
+    groupNow.forEach((entry,index)=>{
+     const product=selected[index];
+     const registeredBorder=getBorders().find(border=>promoNorm(border.name)===promoNorm(entry.border||''));
+     const borderPrice=registeredBorder?roundMoney(registeredBorder.price):roundMoney(Number(entry.borderPrice)||0);
+     entry.name=product.name;
+     entry.category=product.category;
+     entry.kind='pizza';
+     entry.size='G';
+     entry.basePrice=basePrices[index];
+     entry.borderPrice=borderPrice;
+     entry.price=roundMoney(basePrices[index]+borderPrice);
+     entry.flavors=[product.name];
+     entry.flavorIds=[product.id];
+     entry.flavorCategories=[product.category];
+     entry.promotionCode='P2';
+     entry.promotionGroupId=String(editGroupId);
+     entry.detail='Promoção P2';
+     // Quantidade, borda, observações e identificadores do conjunto permanecem intactos.
+    });
+    closePromoModal();renderCart();showProductAddedToast('Sabores do conjunto atualizados',{preserveCurrentPage:true});
+   };
+   return;
+  }
+  const b1=document.getElementById('p2-border-1'),b2=document.getElementById('p2-border-2');
+  function update(){
+   const a=allowed.find(p=>p.id===f1.value),b=allowed.find(p=>p.id===f2.value),x=getBorders().find(border=>border.id===b1.value),y=getBorders().find(border=>border.id===b2.value);
+   const normalA=getFlavorPrice(a,'G'),normalB=getFlavorPrice(b,'G');
+   const normalKnown=normalA!==null&&normalB!==null;
+   const normalTotal=normalKnown?roundMoney(normalA+normalB):null;
+   const saving=normalKnown?roundMoney(normalTotal-target):null;
+   const savingsMarkup=saving>0?`<span>Preço normal dos sabores</span><strong>${money(normalTotal)}</strong><span>Economia nesta combinação</span><strong>${money(saving)}</strong>`:normalKnown?`<span>Economia nesta combinação</span><strong>Não há economia para estes sabores.</strong>`:`<span>Economia</span><strong>Selecione os dois sabores para calcular.</strong>`;
+   const borderTotal=roundMoney((x?x.price:0)+(y?y.price:0));
+   document.getElementById('p2-preview').innerHTML=`<span>Preço promocional das duas pizzas</span><strong>${money(target)}</strong>${savingsMarkup}<span>Bordas adicionais</span><strong>${money(borderTotal)}</strong><span class="preview-total">Total com bordas</span><strong class="preview-total">${money(target+borderTotal)}</strong>`;
+  }
+  [f1,f2,b1,b2].forEach(element=>element.addEventListener('change',update));update();
+  confirm.onclick=()=>{
+   if(!canApplyPromotion('P2'))return;
+   const a=allowed.find(p=>p.id===document.getElementById('p2-flavor-1').value),b=allowed.find(p=>p.id===document.getElementById('p2-flavor-2').value);
+   if(!a||!b){alert('Escolha os dois sabores.');return;}
+   const br1=getBorders().find(x=>x.id===b1.value),br2=getBorders().find(x=>x.id===b2.value);
+   const bp1=br1?roundMoney(br1.price):0,bp2=br2?roundMoney(br2.price):0;
+   const cents=Math.round(target*100),first=Math.floor(cents/2),base1=first/100,base2=(cents-first)/100;
+   const groupSuffix=Date.now().toString(36)+'-'+Math.random().toString(36).slice(2,9);
+   const promotionGroupId='promo-P2-'+groupSuffix;
+   markSaturdayGiftDecisionStale();
+   cart.push({key:promotionGroupId+'-a',id:promotionGroupId+'-a',promotionGroupId,name:a.name,category:a.category,kind:'pizza',size:'G',price:roundMoney(base1+bp1),basePrice:base1,borderPrice:bp1,border:br1?br1.name:'',flavors:[a.name],flavorIds:[a.id],flavorCategories:[a.category],qty:1,detail:'Promoção P2',promotionCode:'P2'},{key:promotionGroupId+'-b',id:promotionGroupId+'-b',promotionGroupId,name:b.name,category:b.category,kind:'pizza',size:'G',price:roundMoney(base2+bp2),basePrice:base2,borderPrice:bp2,border:br2?br2.name:'',flavors:[b.name],flavorIds:[b.id],flavorCategories:[b.category],qty:1,detail:'Promoção P2',promotionCode:'P2'});
+   closePromoModal();renderCart();showProductAddedToast('Produtos adicionados ao carrinho');return;
+  };
+  return;
+ }
 
 }
 
@@ -3955,6 +4364,9 @@ function getWeekdayChocolateChoices(){
  // O brinde desta promoção é exclusivamente o sabor Chocolate ao leite.
  return products.filter(p=>p.kind==='pizza'&&p.category==='doces'&&p.name.trim().toLocaleLowerCase('pt-BR')==='chocolate ao leite'&&getFlavorPrice(p,'P_broto')!==null);
 }
+// A P4 aceita somente as bordas comuns Tirolez e Cheddar; a premium Tirolês não participa.
+function getWeekdayEligibleBorders(){return getBorders().filter(border=>['requeijao tirolez','cheddar'].includes(promoNorm(border.name)));}
+
 function weekdayEligiblePizzaLabel(item){
  const flavors=Array.isArray(item.flavors)&&item.flavors.length?item.flavors.filter(Boolean).join(' / '):(item.name||'Pizza grande');
  return 'Pizza grande — '+flavors;
@@ -3980,7 +4392,7 @@ function openWeekdayGiftPromoModal(continueAfter=false){
   return;
  }
  const chocolates=getWeekdayChocolateChoices();
- const borders=getBorders().filter(item=>/^(requeijão tirolez|cheddar)$/i.test(String(item.name||'').trim()));
+ const borders=getWeekdayEligibleBorders();
  if(!chocolates.length&&!borders.length){alert('Não há opções de brinde cadastradas no cardápio no momento.');return;}
  const pizzaOptions=eligible.map(item=>`<option value="${esc(item.key)}">${esc(weekdayEligiblePizzaLabel(item))} — ${money(Number(item.basePrice)||0)}</option>`).join('');
  const chocolateOptions=chocolates.map(item=>`<option value="${esc(item.id)}">${esc(item.name)}</option>`).join('');
@@ -4064,7 +4476,7 @@ function revalidateWeekdayGiftPromotion(){
   }
   if(gift.weekdayGiftType==='borda'){
    const border=findCurrentBorderByName(gift.weekdayBorderName||gift.weekdayGiftName||'');
-   return !!border&&/^(requeijão tirolez|requeijão tirolês|cheddar)$/i.test(String(border.name||'').trim());
+   return !!border&&getWeekdayEligibleBorders().some(option=>option.id===border.id);
   }
   return false;
  });
@@ -4193,16 +4605,17 @@ function revalidateSuperSextouPromotion(){
   return false;
  }
  if(gifts.length){
-  const allowedDrinks=['Pepsi 1 litro','Guaraná Antarctica 1 litro'];
-  const chosenName=String(gifts[0].superSextouGiftName||gifts[0].name||'');
-  if(!allowedDrinks.includes(chosenName)){
+  const savedName=String(gifts[0].superSextouGiftName||gifts[0].name||'');
+  const drink=findRegisteredDrinkByName(savedName);
+  const allowed=drink&&['pepsi 1 litro','guarana antarctica 1 litro'].includes(normalizeDrinkName(drink.name));
+  if(!allowed){
    cart=cart.filter(item=>!item||!item.isSuperSextouGift);
    superSextouGiftDecision=null;
    return false;
   }
   const keep=gifts[0];
   cart=cart.filter(item=>!item||!item.isSuperSextouGift||item===keep);
-  keep.qty=1;keep.price=0;keep.name=chosenName;keep.superSextouGiftName=chosenName;keep.promotionCode='P5';keep.kind='bebida';keep.category='bebidas';keep.detail='CORTESIA — SUPER SEXTOU';
+  keep.qty=1;keep.price=0;keep.name=drink.name;keep.superSextouGiftName=drink.name;keep.promotionCode='P5';keep.kind='bebida';keep.category='bebidas';keep.detail='CORTESIA — SUPER SEXTOU';
   if(gifts.length>1)showFloatingNotice('Uma cortesia duplicada do Super Sextou foi removida. A promoção permite somente um refrigerante por pedido.',true);
  }
  return true;
@@ -4233,7 +4646,10 @@ function chooseSuperSextouGift(choice){
  if(choice!=='declined'&&!canApplyPromotion('P5'))return;
  cart=cart.filter(item=>!item||!item.isSuperSextouGift);
  if(choice==='pepsi'||choice==='guarana'){
-  const drinkName=choice==='pepsi'?'Pepsi 1 litro':'Guaraná Antarctica 1 litro';
+  const requestedName=choice==='pepsi'?'Pepsi 1 L':'Guaraná Antarctica 1 L';
+  const drink=findRegisteredDrinkByName(requestedName);
+  if(!drink){alert('A bebida escolhida não está disponível no cardápio.');return;}
+  const drinkName=drink.name;
   const key='super-sextou-gift-'+Date.now();
   cart.push({key,id:key,name:drinkName,category:'bebidas',kind:'bebida',price:0,qty:1,detail:'CORTESIA — SUPER SEXTOU',promotionCode:'P5',isSuperSextouGift:true,superSextouGiftName:drinkName});
   superSextouGiftDecision=choice;
@@ -4271,10 +4687,10 @@ function showFloatingNotice(message,warning=false){
  if(saturdayToastTimer)clearTimeout(saturdayToastTimer);
  saturdayToastTimer=setTimeout(()=>{toast.classList.remove('visible','product-added','warning');},2500);
 }
-function showProductAddedToast(message='Produto adicionado ao carrinho'){
- // Se um produto for concluído enquanto a tela do carrinho estiver ativa,
- // restaura a tela principal e posiciona no Cardápio apenas se necessário.
- if(document.body.dataset.page==='cart')ensureCardapioSectionForProductClick();
+function showProductAddedToast(message='Produto adicionado ao carrinho',options={}){
+ // Adições feitas a partir do cardápio podem levar o cliente à seção Cardápio.
+ // A edição da P2 é diferente: deve preservar a página em que o conjunto foi aberto.
+ if(!options.preserveCurrentPage&&document.body.dataset.page==='cart')ensureCardapioSectionForProductClick();
  const toast=document.getElementById('saturdayPromoToast');
  if(!toast)return;
  toast.innerHTML='<span class="toast-success-icon" aria-hidden="true">✓</span><span></span>';
@@ -4509,7 +4925,12 @@ function setupBuilderFloatingControls(root){
 }
 function renderProducts(){
  if(builderFloatingControlsCleanup){builderFloatingControlsCleanup();builderFloatingControlsCleanup=null;}
- const q=document.getElementById('search').value.trim().toLocaleLowerCase('pt-BR');
+ const searchInput=document.getElementById('search');
+ const searchHadFocus=!!searchInput&&document.activeElement===searchInput;
+ const searchSelection=searchHadFocus?{start:searchInput.selectionStart,end:searchInput.selectionEnd}:null;
+ const q=(searchInput?.value||'').trim();
+ const normalizedSearch=promoNorm(q);
+ const normalizedDrinkSearch=normalizeDrinkName(q);
  const el=document.getElementById('products');
  const flavorCategories=[
   ['tradicionais','🍕','Tradicionais'],
@@ -4517,11 +4938,10 @@ function renderProducts(){
   ['doces','🍫','Doces'],
   ['bebidas','🥤','Bebidas']
  ];
- const allFlavors=products.filter(p=>p.kind==='pizza'&&p.name.toLocaleLowerCase('pt-BR').includes(q));
+ const allFlavors=products.filter(p=>p.kind==='pizza'&&promoNorm(p.name).includes(normalizedSearch));
  const borders=getBorders();
  const sizes=[['P_broto','P / Broto'],['M','Média'],['G','Grande']];
- const drinks=products.filter(p=>p.category==='bebidas'&&p.name.toLocaleLowerCase('pt-BR').includes(q));
- if(!allFlavors.length&&!drinks.length){el.innerHTML='<div class="cart-empty">Nenhum produto encontrado. Confira a busca.</div>';return;}
+ const drinks=products.filter(p=>p.category==='bebidas'&&normalizeDrinkName(p.name).includes(normalizedDrinkSearch));
  if(!builderState.activeCategory)builderState.activeCategory='tradicionais';
  const categoryName=id=>({tradicionais:'Tradicional',especiais:'Especial',doces:'Doce',bebidas:'Bebida'}[id]||'');
  const pizzaPhoto=p=>String(p&&p.image||'').trim();
@@ -4534,7 +4954,7 @@ function renderProducts(){
    <input type="checkbox" value="${esc(f.id)}" data-flavor ${selected?'checked':''} aria-label="Selecionar sabor ${esc(f.name)}">
    ${photo?`<div class="produto-foto builder-flavor-photo" aria-hidden="true"><img data-photo-id="${esc(f.id)}" src="${esc(photo)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.closest('.flavor-option')?.classList.remove('has-photo');this.closest('.flavor-option')?.classList.add('no-photo');this.closest('.produto-foto')?.remove()"></div>`:''}
    <span class="flavor-info builder-flavor-info">
-    <span class="flavor-name">${esc(f.name)}${f.isNew?' <span class="new">NOVO</span>':''}</span>
+    <span class="flavor-name">${esc(f.name)}${f.isNew?' <span class="new">NOVO</span>':''}${f.topPick?' <span class="top-pick">Mais pedido</span>':''}</span>
     <small class="builder-category-tag">${esc(categoryName(f.category))}</small>
     ${desc?`<span class="builder-flavor-description">${esc(desc)}</span>`:''}
     <span class="flavor-price" data-flavor-price-for="${esc(f.id)}">${flavorPriceLabel(f,builderState.size)}</span>
@@ -4566,6 +4986,7 @@ function renderProducts(){
    <p class="photo-note" ${allFlavors.some(f=>String(f.image||'').trim())?'':'hidden'}>Fotos ilustrativas; podem não corresponder exatamente ao sabor escolhido.</p>
   </div>
   <nav class="builder-category-tabs" aria-label="Categorias do cardápio">${tabsHtml}</nav>
+  <div class="builder-search-slot" id="builder-search-slot" role="search"></div>
   <div id="flavor-accordions" class="builder-category-panels">${panelsHtml}</div>
   <div id="builder-mini-summary" class="builder-mini-summary" hidden aria-live="polite"><div class="builder-mini-icon">🍕</div><div class="builder-mini-pizza" aria-hidden="true"><span id="builder-mini-half-left" class="builder-mini-half is-empty"></span><span id="builder-mini-half-right" class="builder-mini-half is-empty"></span></div><div class="builder-mini-copy"><strong id="builder-mini-count">0/2 sabores</strong><span id="builder-mini-flavors">Monte sua pizza</span><small id="builder-mini-remaining"></small></div><button type="button" class="builder-mini-view" id="builder-mini-view">Ver pizza</button></div>
   <section class="builder-summary builder-summary-panel" id="builder-summary-panel" aria-live="polite">
@@ -4584,6 +5005,16 @@ function renderProducts(){
   <div class="builder-add-slot"><div class="builder-add-row"><div class="builder-quantity-control" id="builder-quantity-control" aria-label="Quantidade de pizzas"><button type="button" class="builder-quantity-button is-minus" id="builder-quantity-minus" aria-label="Diminuir quantidade" disabled>−</button><output class="builder-quantity-value" id="builder-quantity-value" aria-live="polite">1</output><button type="button" class="builder-quantity-button is-plus" id="builder-quantity-plus" aria-label="Aumentar quantidade">+</button></div><button type="button" class="builder-add needs-options" id="builder-add" aria-describedby="builder-summary-message">Adicionar — R$ 0,00</button></div><button type="button" id="builder-edit-cancel" class="builder-edit-cancel hidden">Cancelar edição</button></div>
   <div id="builder-pizza-modal" class="builder-pizza-modal hidden" aria-hidden="true"><div class="builder-pizza-dialog" role="dialog" aria-modal="true" aria-labelledby="builder-modal-title"><div class="builder-modal-head"><h2 id="builder-modal-title">Sua pizza</h2><button type="button" id="builder-modal-close" class="builder-modal-close" aria-label="Fechar">×</button></div><div id="builder-modal-pizza" class="builder-modal-pizza" aria-label="Visualização da pizza"><div id="builder-modal-half-left" class="builder-modal-half is-empty"><span>?</span></div><div id="builder-modal-half-right" class="builder-modal-half is-empty"><span>?</span></div></div><div id="builder-modal-flavors" class="builder-modal-flavors"></div><div class="builder-modal-details"><div><span>Tamanho</span><strong id="builder-modal-size">—</strong></div><div><span>Borda</span><strong id="builder-modal-border">Sem borda</strong></div><div><span>Preço da pizza</span><strong id="builder-modal-base">—</strong></div><div class="builder-modal-final"><span>Preço final</span><strong id="builder-modal-final">—</strong></div></div><div class="builder-modal-actions"><button type="button" id="builder-modal-continue" class="builder-modal-continue">Continuar escolhendo</button><button type="button" id="builder-modal-add" class="builder-modal-add" disabled>Adicionar pizza ao pedido</button></div></div></div>
  </section>`;
+ const searchSlot=el.querySelector('#builder-search-slot');
+ if(searchSlot&&searchInput){
+  searchSlot.appendChild(searchInput);
+  if(searchHadFocus){
+   try{
+    searchInput.focus({preventScroll:true});
+    if(searchSelection&&Number.isInteger(searchSelection.start)&&Number.isInteger(searchSelection.end))searchInput.setSelectionRange(searchSelection.start,searchSelection.end);
+   }catch(error){searchInput.focus();}
+  }
+ }
  const sizeEl=document.getElementById('builder-size');
  const sizeButtons=[...el.querySelectorAll('[data-size-option]')];
  const borderEl=document.getElementById('builder-border');
@@ -5025,7 +5456,7 @@ function saveCartItemObservation(key,rawValue){
  renderCart();
 }
 function add(id,card){const p=products.find(x=>x.id===id);if(!p)return;markSaturdayGiftDecisionStale();const key=id;const found=cart.find(x=>(x.key===key||x.id===id)&&x.kind===p.kind&&!cartItemObservation(x));if(found)found.qty++;else cart.push({key:cartLineKey(key),id,name:p.name,category:p.category,kind:p.kind,size:'',price:p.price||0,qty:1});renderCart();showProductAddedToast();}
-function changeQty(key,d){const it=cart.find(x=>x.key===key);if(!it)return;if((it.isSaturdayGift||it.isWeekdayGift||it.isSuperSextouGift||it.isSundayGift)&&d>0){showSaturdayPromoToast('O pedido pode receber apenas um brinde por promoção.',true);return;}markSaturdayGiftDecisionStale();it.qty+=d;if(it.qty<=0)cart=cart.filter(x=>x.key!==key);renderCart();}
+function changeQty(key,d){const it=cart.find(x=>x.key===key||getP2GroupIdentifier(x)===key);if(!it)return;if((it.isSaturdayGift||it.isWeekdayGift||it.isSuperSextouGift||it.isSundayGift)&&d>0){showSaturdayPromoToast('O pedido pode receber apenas um brinde por promoção.',true);return;}markSaturdayGiftDecisionStale();if(String(it.promotionCode||'').toUpperCase()==='P2'){const group=getP2GroupItems(it);if(group.length!==2){showSaturdayPromoToast('Este conjunto P2 está incompleto. Remova o conjunto e adicione a promoção novamente.',true);return;}const nextQty=Math.max(0,Math.min(99,(Number(it.qty)||1)+Number(d||0)));if(nextQty===0)cart=cart.filter(entry=>!group.includes(entry));else group.forEach(entry=>entry.qty=nextQty);renderCart();return;}it.qty+=d;if(it.qty<=0)cart=cart.filter(x=>x.key!==key);renderCart();}
 function findPromoConfig(code){
  return (DATA.promocoes||[]).find(p=>promoCode(p)===code)||null;
 }
@@ -5072,8 +5503,7 @@ function registeredGiftBenefitValue(item){
  if(!qty)return 0;
  if(item.isSuperSextouGift||item.isSundayGift){
   const giftName=item.isSundayGift?(item.sundayGiftName||item.name||'Coca-Cola 1 L'):(item.superSextouGiftName||item.name||'');
-  const normalizeDrink=value=>promoNorm(value).replace(/\b1\s*(?:l|litro)\b/g,'1 litro');
-  const drink=products.find(product=>product&&product.kind==='bebida'&&normalizeDrink(product.name)===normalizeDrink(giftName));
+  const drink=findRegisteredDrinkByName(giftName);
   const drinkPrice=Number(drink?.price);
   return drink&&Number.isFinite(drinkPrice)&&drinkPrice>=0?roundMoney(drinkPrice*qty):0;
  }
@@ -5102,7 +5532,7 @@ function cartSavingsTotals(){
  return {productDiscounts,giftSavings,savings,total,subtotal,unknownGiftValues};
 }
 function getPromotionGiftPriceOptions(code){
- const findDrink=name=>products.find(product=>product&&product.kind==='bebida'&&promoNorm(product.name)===promoNorm(name));
+ const findDrink=name=>findRegisteredDrinkByName(name);
  if(code==='P3'){
   const flavor=getSaturdayChocolateChoices()[0];const price=flavor?getFlavorPrice(flavor,'M'):null;
   return [{label:'Pizza média de Chocolate ao leite',price:price!==null&&price!==undefined&&Number.isFinite(Number(price))?Number(price):null}];
@@ -5110,10 +5540,10 @@ function getPromotionGiftPriceOptions(code){
  if(code==='P4'){
   const flavor=getWeekdayChocolateChoices()[0];const broto=flavor?getFlavorPrice(flavor,'P_broto'):null;
   const options=[{label:'Broto de Chocolate ao leite',price:broto!==null&&broto!==undefined&&Number.isFinite(Number(broto))?Number(broto):null}];
-  getBorders().filter(border=>/^(requeijão tirolez|requeijão tirolês|cheddar)$/i.test(String(border.name||'').trim())).forEach(border=>options.push({label:'Borda de '+border.name,price:Number.isFinite(Number(border.price))?Number(border.price):null}));
+  getWeekdayEligibleBorders().forEach(border=>options.push({label:'Borda de '+border.name,price:Number.isFinite(Number(border.price))?Number(border.price):null}));
   return options;
  }
- if(code==='P5')return ['Pepsi 1 litro','Guaraná Antarctica 1 litro'].map(name=>{const drink=findDrink(name);return {label:name,price:drink&&Number.isFinite(Number(drink.price))?Number(drink.price):null};});
+ if(code==='P5')return ['Pepsi 1 L','Guaraná Antarctica 1 L'].map(name=>{const drink=findDrink(name);return {label:drink?drink.name:name,price:drink&&Number.isFinite(Number(drink.price))?Number(drink.price):null};});
  if(code==='P6'){const drink=findDrink('Coca-Cola 1 L')||findDrink('Coca-Cola 1 litro');return [{label:'Coca-Cola 1 L',price:drink&&Number.isFinite(Number(drink.price))?Number(drink.price):null}];}
  return [];
 }
@@ -5283,9 +5713,10 @@ function bindPromotionCheckoutModal(){
  document.addEventListener('keydown',event=>{if(event.key==='Escape'&&promotionCheckoutPending)closePromotionCheckoutModal(true);});
 }
 function removeCartItem(key){
- const item=cart.find(entry=>entry&&entry.key===key);if(!item)return;
+ const item=cart.find(entry=>entry&&(entry.key===key||getP2GroupIdentifier(entry)===key));if(!item)return;
  markSaturdayGiftDecisionStale();
- cart=cart.filter(entry=>entry!==item);
+ if(String(item.promotionCode||'').toUpperCase()==='P2'){const group=getP2GroupItems(item);cart=cart.filter(entry=>!group.includes(entry));}
+ else cart=cart.filter(entry=>entry!==item);
  renderCart();
 }
 function renderCart(){
@@ -5301,18 +5732,43 @@ function renderCart(){
  if(!cart.length){el.className='cart-empty';el.textContent='Seu carrinho está vazio. Escolha algo gostoso!';}
  else{
   el.className='';
+  const renderedP2Groups=new Set();
   el.innerHTML=cart.map(item=>{
+   if(item&&String(item.promotionCode||'').toUpperCase()==='P2'){
+    const groupId=getP2GroupIdentifier(item);
+    if(renderedP2Groups.has(groupId))return '';
+    renderedP2Groups.add(groupId);
+    const group=getP2GroupItems(item);
+    const qty=Math.max(1,Number(item.qty)||1);
+    const groupTotal=roundMoney(group.reduce((sum,entry)=>sum+(Number(entry.price)||0),0)*qty);
+    const pizzaRows=group.map((entry,index)=>{
+     const flavor=Array.isArray(entry.flavors)&&entry.flavors.length?entry.flavors.join(' / '):entry.name;
+     const border=String(entry.border||'').trim();
+     const borderPart=border&&!/^sem borda$/i.test(border)?`Borda: ${border} (+${money(Number(entry.borderPrice)||0)})`:'Sem borda';
+     const observation=cartItemObservation(entry);
+     return `<div class="p2-cart-pizza"><strong>${index+1}. ${esc(flavor)}</strong><small>${esc(borderPart)}${observation?` · Obs.: ${esc(observation)}`:''}</small></div>`;
+    }).join('');
+    const controls=group.length===2?`<button data-q="${esc(groupId)}" data-d="-1" aria-label="Diminuir conjuntos da promoção P2">−</button><b>${qty} conjunto(s)</b><button data-q="${esc(groupId)}" data-d="1" aria-label="Aumentar conjuntos da promoção P2">＋</button>`:`<b>Conjunto incompleto</b>`;
+    const edit=group.length===2?`<button type="button" data-edit-p2="${esc(groupId)}">Editar sabores</button>`:'';
+    const remove=group.length===2?`<button type="button" data-remove-q="${esc(groupId)}">Remover conjunto</button>`:'';
+    return `<div class="cart-line p2-cart-group"><div class="p2-cart-details"><strong class="p2-cart-title">P2 · 2 pizzas grandes</strong>${pizzaRows}</div><div class="cart-line-right"><strong>${money(groupTotal)}</strong><div class="qty">${controls}</div><div class="cart-line-actions">${edit}${remove}</div></div></div>`;
+   }
    const isGift=!!(item.isSaturdayGift||item.isWeekdayGift||item.isSuperSextouGift||item.isSundayGift);
    const quantityControls=isGift?`<button data-q="${esc(item.key)}" data-d="-1" aria-label="Diminuir ou remover brinde">−</button><b>1</b>`:`<button data-q="${esc(item.key)}" data-d="-1" aria-label="Diminuir quantidade">−</button><b>${item.qty}</b><button data-q="${esc(item.key)}" data-d="1" aria-label="Aumentar quantidade">＋</button>`;
    const displayName=item.kind==='pizza'&&Array.isArray(item.flavors)&&item.flavors.length?displayPizzaFlavors(item.flavors,item):item.name;
-    const itemObservation=cartItemObservation(item);
-    const canEditPizza=item.kind==='pizza'&&!isGift&&!item.promotionCode&&Array.isArray(item.flavorIds)&&item.flavorIds.length>0;
-    const actions=`<div class="cart-line-actions">${canEditPizza?`<button type="button" data-edit-pizza="${esc(item.key)}">Editar</button>`:''}<button type="button" data-remove-q="${esc(item.key)}">Remover</button></div>`;
-    const observationEditor=`<div class="cart-item-observation"><p class="cart-item-observation-text" ${itemObservation?'':'hidden'}><strong>Obs.:</strong> ${esc(itemObservation)}</p><button type="button" class="cart-item-observation-toggle" data-observation-toggle="${esc(item.key)}" aria-expanded="false">${itemObservation?'Editar observação':'Adicionar observação'}</button><div class="cart-item-observation-editor" data-observation-editor hidden><label>Observação deste produto</label><textarea data-item-observation maxlength="500" placeholder="Ex.: sem cebola, pouco queijo...">${esc(itemObservation)}</textarea><div class="cart-item-observation-actions"><button type="button" data-observation-save="${esc(item.key)}">Salvar</button>${itemObservation?`<button type="button" data-observation-remove="${esc(item.key)}">Remover observação</button>`:''}<button type="button" data-observation-cancel>Cancelar</button></div></div></div>`;
-    return `<div class="cart-line ${(isGift?'saturday-gift-cart-line':'')}"><div><strong>${esc(displayName)}</strong><small>${esc(cartItemMeta(item))}</small><small>${esc(cartItemPriceMeta(item))}</small>${observationEditor}</div><div class="cart-line-right"><strong>${money(item.price*item.qty)}</strong><div class="qty">${quantityControls}</div>${actions}</div></div>`;
+   const itemObservation=cartItemObservation(item);
+   const canEditPizza=item.kind==='pizza'&&!isGift&&!item.promotionCode&&Array.isArray(item.flavorIds)&&item.flavorIds.length>0;
+   const actions=`<div class="cart-line-actions">${canEditPizza?`<button type="button" data-edit-pizza="${esc(item.key)}">Editar</button>`:''}<button type="button" data-remove-q="${esc(item.key)}">Remover</button></div>`;
+   const observationEditor=`<div class="cart-item-observation"><p class="cart-item-observation-text" ${itemObservation?'':'hidden'}><strong>Obs.:</strong> ${esc(itemObservation)}</p><button type="button" class="cart-item-observation-toggle" data-observation-toggle="${esc(item.key)}" aria-expanded="false">${itemObservation?'Editar observação':'Adicionar observação'}</button><div class="cart-item-observation-editor" data-observation-editor hidden><label>Observação deste produto</label><textarea data-item-observation maxlength="500" placeholder="Ex.: sem cebola, pouco queijo...">${esc(itemObservation)}</textarea><div class="cart-item-observation-actions"><button type="button" data-observation-save="${esc(item.key)}">Salvar</button>${itemObservation?`<button type="button" data-observation-remove="${esc(item.key)}">Remover observação</button>`:''}<button type="button" data-observation-cancel>Cancelar</button></div></div></div>`;
+   return `<div class="cart-line ${(isGift?'saturday-gift-cart-line':'')}"><div><strong>${esc(displayName)}</strong><small>${esc(cartItemMeta(item))}</small><small>${esc(cartItemPriceMeta(item))}</small>${observationEditor}</div><div class="cart-line-right"><strong>${money(item.price*item.qty)}</strong><div class="qty">${quantityControls}</div>${actions}</div></div>`;
   }).join('');
   el.querySelectorAll('[data-q]').forEach(button=>button.onclick=()=>changeQty(button.dataset.q,Number(button.dataset.d)));
   el.querySelectorAll('[data-remove-q]').forEach(button=>button.onclick=()=>removeCartItem(button.dataset.removeQ));
+  el.querySelectorAll('[data-edit-p2]').forEach(button=>button.onclick=event=>{
+   event.preventDefault();
+   event.stopPropagation();
+   openPromoModal('P2',button.dataset.editP2);
+  });
   el.querySelectorAll('[data-edit-pizza]').forEach(button=>button.onclick=()=>editPizzaInCart(button.dataset.editPizza));
   el.querySelectorAll('[data-observation-toggle]').forEach(button=>button.onclick=()=>{
    const line=button.closest('.cart-line');
@@ -5490,6 +5946,8 @@ window.addEventListener('resize',updateSectionNavigationFromScroll);
 document.querySelectorAll('.bottom-nav [data-section-nav]').forEach(button=>button.addEventListener('click',()=>scrollToNavigationSection(button.dataset.sectionNav)));
 function switchNavigationPage(page){
  if(!['menu','cart'].includes(page))return;
+ // Enquanto o modal de edição P2 estiver aberto, mantém a página de origem.
+ if(p2EditNavigationReturnPage&&page!==p2EditNavigationReturnPage)return;
  if(page===activeNavigationPage){return;}
  navigationScrollPositions[activeNavigationPage]=window.getPdvScrollTop();
  activeNavigationPage=page;
@@ -5773,6 +6231,7 @@ function resetMenuAfterWhatsAppOpen(){
  window.getPdvScrollContainer().scrollTo({top:0,behavior:'smooth'});
 }
 function sendOrderToWhatsApp(skipPixStage=false){
+ if(readPendingWhatsAppOrder()){showPendingWhatsAppModal();return;}
  if(orderSubmissionInProgress||Date.now()-lastOrderOpenTimestamp<1200)return;
  if(!validateCheckout())return;
  let pixBypassReason='';
@@ -5856,7 +6315,6 @@ function sendOrderToWhatsApp(skipPixStage=false){
    '📋 *COMANDA DO PEDIDO*',
    `*Data:* ${orderDate} às ${orderTime}`,
    '',
-   '*Nº:*',
    ''
   ];
   if(delivery==='Entrega'&&addressText)lines.push(`*${addressText}*`);
@@ -5967,10 +6425,13 @@ function sendOrderToWhatsApp(skipPixStage=false){
    return;
   }
   try{whatsappWindow.opener=null;}catch(error){}
-  // Abrir o WhatsApp não confirma o envio da mensagem.
-  // Preserve o carrinho e os dados preenchidos até o cliente iniciar uma nova ação.
+  // Abrir o WhatsApp não comprova o envio. Preserve o carrinho até confirmação manual.
+  const pendingSnapshot={version:1,createdAt:new Date().toISOString(),deliveryMode:delivery==='Retirada no balcão'?'Retirada no balcão':'Entrega',items:JSON.parse(JSON.stringify(cart))};
+  const pendingSaved=savePendingWhatsAppOrder(pendingSnapshot);
   lastOrderOpenTimestamp=Date.now();
   skipPendingPromotionOffersForCheckout=false;
+  showPendingWhatsAppModal();
+  if(!pendingSaved)alert('O WhatsApp foi aberto, mas o navegador não permitiu salvar o estado pendente. Não feche esta página antes de confirmar o envio.');
  }finally{
   orderSubmissionInProgress=false;
   if(sendButton)sendButton.disabled=false;
@@ -6282,8 +6743,10 @@ function initDevTools(){
    return {ok:false,message:'Os horários desse dia não estão configurados corretamente. Entre em contato com a pizzaria.'};
   }
   const start=Math.max(opening,production);
-  if(closing<start)return {ok:false,message:'Não há faixa de agendamento disponível para esse dia.'};
-  return {ok:true,weekday,config,start,end:closing};
+  // O último horário permitido deve terminar pelo menos 30 minutos antes do fechamento.
+  const lastScheduleMinute=closing-30;
+  if(lastScheduleMinute<start)return {ok:false,message:'Não há faixa de agendamento disponível com 30 minutos de antecedência do fechamento.'};
+  return {ok:true,weekday,config,start,end:lastScheduleMinute};
  }
  function getRealTodayMinutes(){
   const parts=datePartsReal();return parts.nowMinutes;
@@ -6318,6 +6781,43 @@ function initDevTools(){
   }
   return '';
  }
+ // Interface limitada usada pelo rascunho local; scheduleState continua privado nesta camada.
+ window.getScheduleStateForDraft=function(){
+  const delivery=document.getElementById('delivery')?.value||scheduleState.delivery||'Entrega';
+  return {confirmed:!!scheduleState.confirmed,date:scheduleState.confirmed?scheduleState.date:'',time:scheduleState.confirmed?scheduleState.time:'',delivery:delivery==='Retirada no balcão'?'Retirada no balcão':'Entrega'};
+ };
+ window.restoreScheduleFromDraft=function(saved,fallbackDelivery='Entrega'){
+  const fallback=fallbackDelivery==='Retirada no balcão'?'Retirada no balcão':'Entrega';
+  const hasSchedule=!!(saved&&saved.confirmed===true);
+  const requestedDelivery=saved&&saved.delivery==='Retirada no balcão'?'Retirada no balcão':fallback;
+  if(!hasSchedule){
+   scheduleState.confirmed=false;scheduleState.date='';scheduleState.time='';scheduleState.delivery=fallback;
+   const timing=document.getElementById('orderTiming');if(timing){timing.value='immediate';timing.dispatchEvent(new Event('change',{bubbles:true}));}
+   const dateField=document.getElementById('scheduledDate');if(dateField)dateField.value='';
+   const timeField=document.getElementById('scheduledTime');if(timeField)timeField.value='';
+   const deliveryField=document.getElementById('delivery');if(deliveryField){deliveryField.value=fallback;deliveryField.dispatchEvent(new Event('change',{bubbles:true}));}
+   document.body.classList.remove('pdv-schedule-active');renderGate();
+   return {valid:true,confirmed:false,delivery:fallback,issue:''};
+  }
+  const dateValue=String(saved.date||'').trim(),timeValue=String(saved.time||'').trim();
+  const validation=validateSchedule(dateValue,timeValue,true);
+  if(validation){
+   scheduleState.confirmed=false;scheduleState.date='';scheduleState.time='';scheduleState.delivery=fallback;
+   const timing=document.getElementById('orderTiming');if(timing){timing.value='immediate';timing.dispatchEvent(new Event('change',{bubbles:true}));}
+   const dateField=document.getElementById('scheduledDate');if(dateField)dateField.value='';
+   const timeField=document.getElementById('scheduledTime');if(timeField)timeField.value='';
+   const deliveryField=document.getElementById('delivery');if(deliveryField){deliveryField.value=fallback;deliveryField.dispatchEvent(new Event('change',{bubbles:true}));}
+   document.body.classList.remove('pdv-schedule-active');renderGate();
+   return {valid:false,confirmed:false,delivery:fallback,issue:'O agendamento salvo não está mais válido ('+validation+'). Escolha outra data e horário; os produtos do carrinho foram preservados.'};
+  }
+  scheduleState.confirmed=true;scheduleState.date=dateValue;scheduleState.time=timeValue;scheduleState.delivery=requestedDelivery;
+  const timing=document.getElementById('orderTiming');if(timing){timing.value='scheduled';timing.dispatchEvent(new Event('change',{bubbles:true}));}
+  const dateField=document.getElementById('scheduledDate');if(dateField)dateField.value=dateValue;
+  const timeField=document.getElementById('scheduledTime');if(timeField)timeField.value=timeValue;
+  const deliveryField=document.getElementById('delivery');if(deliveryField){deliveryField.value=requestedDelivery;deliveryField.dispatchEvent(new Event('change',{bubbles:true}));}
+  document.body.classList.add('pdv-schedule-active');renderScheduleEntry();renderGate();
+  return {valid:true,confirmed:true,delivery:requestedDelivery,issue:''};
+ };
  function listAvailableDates(limit=14){
   const today=isoFromParts(datePartsReal());
   if(!today)return [];
@@ -6474,7 +6974,7 @@ function initDevTools(){
    }
   }
   renderGate();
-  if(expired){renderPromotions(realNow());renderCart();}
+  if(expired){renderPromotions(realNow());renderCart();if(typeof window.persistCartDraft==='function')window.persistCartDraft();}
  }
  function buildUI(){
   if(!document.getElementById('scheduleEntryPanel')){
@@ -7064,9 +7564,8 @@ function initDevTools(){
  // nem de uma primeira interação do usuário.
  startGalleryAutoplay();
 
- // Vídeo: só reproduz quando a área do vídeo entra na tela da vitrine.
- // Primeiro tenta tocar com áudio; se o navegador bloquear, continua sem som
- // e mantém um botão discreto para o cliente ativar o áudio manualmente.
+ // Vídeo: reproduz automaticamente sem áudio quando entra na tela.
+ // O toque diretamente no vídeo ativa o áudio; somente o botão superior pode silenciá-lo.
  const videoFrame=$('#presentationVideoFrame');
  if(PRESENTATION_MEDIA_CONFIG.videoSrc){
   const video=document.createElement('video');
@@ -7092,7 +7591,9 @@ function initDevTools(){
    audio.textContent=video.muted?'🔊 Ativar áudio':'🔇 Silenciar';
    audio.setAttribute('aria-label',video.muted?'Ativar áudio do vídeo':'Silenciar vídeo');
   };
-  audio.addEventListener('click',async()=>{
+  audio.addEventListener('click',async event=>{
+   event.preventDefault();
+   event.stopPropagation();
    if(video.muted){
     video.muted=false;
     try{await video.play();}catch(error){video.muted=true;}
@@ -7101,23 +7602,26 @@ function initDevTools(){
    }
    updateAudioButton();
   });
+  // Tocar no vídeo liga o áudio, mas nunca o desliga. Para silenciar,
+  // o cliente deve usar exclusivamente o controle fixo no topo do vídeo.
+  video.addEventListener('click',async()=>{
+   if(video.muted){
+    video.muted=false;
+    try{await video.play();}catch(error){video.muted=true;}
+    updateAudioButton();
+   }
+  });
   videoFrame.appendChild(audio);
   const videoNote=videoFrame.nextElementSibling;
   if(videoNote)videoNote.hidden=true;
 
   let videoIsVisible=false;
-  let firstVisibleAttempt=true;
   const playWhenVisible=()=>{
    if(!videoIsVisible||document.hidden)return;
-   if(firstVisibleAttempt){
-    firstVisibleAttempt=false;
-    video.muted=false;
-   }
    const playRequest=video.play();
    if(playRequest&&typeof playRequest.then==='function'){
     playRequest.then(()=>updateAudioButton()).catch(async()=>{
-     // A maioria dos navegadores móveis bloqueia autoplay com áudio.
-     // Nesse caso, o vídeo segue automaticamente no modo silencioso.
+     // Se a reprodução for bloqueada, mantém o vídeo silencioso e aguarda interação.
      if(!video.muted){
       video.muted=true;
       updateAudioButton();
@@ -7160,6 +7664,256 @@ function initDevTools(){
   const placeholder=document.createElement('div');placeholder.className='presentation-video-placeholder';placeholder.style.background='linear-gradient(180deg,rgba(9,35,19,.16),rgba(9,35,19,.86))';placeholder.innerHTML='<span class="presentation-video-play" aria-hidden="true">▶</span><strong>Vídeo em preparação</strong><span>Adicione o arquivo do vídeo na configuração de mídias.</span>';videoFrame.appendChild(placeholder);
  }
 
+})();
+</script>
+
+
+<script>
+/* Aprimoramento progressivo dos seletores de borda. O select continua sendo a fonte de verdade. */
+(function(){
+ 'use strict';
+ const BORDER_SELECT_ID = /^(builder-border|p1-border-\d+|p2-border-[12]|weekday-border)$/;
+ const enhanced = new WeakMap();
+ const valueDescriptor = Object.getOwnPropertyDescriptor(HTMLSelectElement.prototype,'value');
+ let activePicker = null;
+ let pickerSequence = 0;
+
+ function isBorderSelect(selectEl){return !!(selectEl&&selectEl.tagName==='SELECT'&&BORDER_SELECT_ID.test(selectEl.id||''));}
+ function borderCatalog(){try{return typeof getBorders==='function'?getBorders():[];}catch(_){return [];}}
+ function borderData(selectEl){
+  const catalog=borderCatalog();
+  const options=Array.from(selectEl.options||[]).filter(option=>!option.disabled);
+  const hasEmpty=options.some(option=>option.value==='');
+  const items=options.map(option=>{
+   if(option.value==='')return {id:'',name:'Sem borda',price:0,premium:false};
+   const known=catalog.find(item=>String(item.id)===String(option.value));
+   if(known)return {id:String(known.id),name:String(known.name||option.textContent||'Borda'),price:selectEl.id==='weekday-border'?0:(Number(known.price)||0),premium:known.premium===true};
+   return {id:String(option.value),name:String(option.textContent||'Borda').trim(),price:0,premium:false};
+  });
+  if(!hasEmpty)items.unshift({id:'',name:'Sem borda',price:0,premium:false});
+  return items;
+ }
+ function itemForValue(state){
+  const value=String(state.select.value||'');
+  return state.items.find(item=>item.id===value)||{id:'',name:'Sem borda',price:0,premium:false};
+ }
+ function refreshButton(state){
+  if(!state||!state.trigger)return;
+  state.items=borderData(state.select);
+  const current=itemForValue(state);
+  state.valueNode.textContent=current.premium?'✦ PREMIUM · '+current.name:current.name;
+  state.priceNode.textContent=current.id&&current.price>0?'+ '+money(current.price):'';
+  state.priceNode.hidden=!(current.id&&current.price>0);
+  state.trigger.setAttribute('aria-label',state.labelText+': '+current.name+(current.id&&current.price>0?', adicional de '+money(current.price):'')+'. Abrir opções.');
+  renderOptions(state);
+ }
+ function renderOptions(state){
+  if(!state||!state.optionsNode)return;
+  const current=String(state.select.value||'');
+  state.items=borderData(state.select);
+  const fragment=document.createDocumentFragment();
+  state.items.forEach(item=>{
+   const selected=item.id===current;
+   const option=document.createElement('button');
+   option.type='button';
+   option.className='border-picker-option';
+   option.setAttribute('role','option');
+   option.setAttribute('aria-selected',selected?'true':'false');
+   option.dataset.borderPickerOption='true';
+   option.dataset.borderValue=item.id;
+   const copy=document.createElement('span');copy.className='border-picker-option-copy';
+   const name=document.createElement('span');name.className='border-picker-option-name';
+   name.textContent=(item.premium?'✦ PREMIUM · ':'')+item.name;
+   const price=document.createElement('span');price.className='border-picker-option-price';
+   price.textContent=money(item.price);
+   copy.append(name,price);
+   const check=document.createElement('span');check.className='border-picker-option-check';check.setAttribute('aria-hidden','true');check.textContent='✓';
+   option.append(copy,check);
+   fragment.appendChild(option);
+  });
+  state.optionsNode.replaceChildren(fragment);
+ }
+ function focusSelectedOption(state){
+  const selected=state.optionsNode.querySelector('[role="option"][aria-selected="true"]');
+  const target=selected||state.optionsNode.querySelector('[role="option"]');
+  if(target)target.focus({preventScroll:true});
+  else state.closeButton.focus({preventScroll:true});
+ }
+ function reducedMotion(){return !!(window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches);}
+ function removeOverlay(state){
+  if(state.overlay){state.overlay.remove();state.overlay=null;state.sheet=null;}
+  if(typeof syncModalBodyLock==='function')syncModalBodyLock();
+  else document.body.classList.remove('modal-open');
+ }
+ function closeBorderPicker(returnFocus=true){
+  const state=activePicker;if(!state)return;
+  activePicker=null;
+  state.trigger.setAttribute('aria-expanded','false');
+  state.panel.setAttribute('aria-hidden','true');
+  if(state.closeTimer)window.clearTimeout(state.closeTimer);
+  const delay=reducedMotion()?0:250;
+  if(state.mobile&&state.overlay){
+   state.overlay.classList.remove('is-open');
+   if(state.sheet)state.sheet.classList.remove('is-open');
+   state.panel.classList.remove('is-open');
+   state.closeTimer=window.setTimeout(()=>{
+    state.closeTimer=null;
+    if(state.panel.parentNode===state.sheet)state.wrapper.appendChild(state.panel);
+    state.panel.hidden=true;
+    state.panel.removeAttribute('role');state.panel.removeAttribute('aria-modal');state.panel.removeAttribute('aria-labelledby');
+    state.panel.classList.remove('is-sheet');
+    removeOverlay(state);
+    if(returnFocus&&state.trigger.isConnected)state.trigger.focus({preventScroll:true});
+   },delay);
+  }else{
+   state.panel.classList.remove('is-open');
+   state.closeTimer=window.setTimeout(()=>{
+    state.closeTimer=null;
+    state.panel.hidden=true;
+    if(returnFocus&&state.trigger.isConnected)state.trigger.focus({preventScroll:true});
+   },delay);
+  }
+ }
+ function openBorderPicker(state){
+  if(state.closeTimer){window.clearTimeout(state.closeTimer);state.closeTimer=null;}
+  if(activePicker===state){closeBorderPicker(true);return;}
+  if(activePicker)closeBorderPicker(false);
+  state.items=borderData(state.select);
+  renderOptions(state);
+  state.panel.hidden=false;
+  state.panel.setAttribute('aria-hidden','false');
+  state.trigger.setAttribute('aria-expanded','true');
+  state.mobile=!!(window.matchMedia&&window.matchMedia('(max-width: 560px)').matches);
+  activePicker=state;
+  if(state.mobile){
+   const backdrop=document.createElement('div');backdrop.className='border-picker-backdrop';backdrop.setAttribute('role','presentation');
+   const sheet=document.createElement('section');sheet.className='border-picker-sheet';sheet.setAttribute('role','dialog');sheet.setAttribute('aria-modal','true');sheet.setAttribute('aria-labelledby',state.headingId);
+   state.panel.setAttribute('role','group');
+   state.panel.setAttribute('aria-hidden','false');
+   sheet.appendChild(state.handle);
+   sheet.appendChild(state.panel);
+   backdrop.appendChild(sheet);
+   document.body.appendChild(backdrop);
+   state.overlay=backdrop;state.sheet=sheet;
+   document.body.classList.add('modal-open');
+   backdrop.addEventListener('click',event=>{if(event.target===backdrop)closeBorderPicker(true);});
+   window.requestAnimationFrame(()=>{if(activePicker===state){backdrop.classList.add('is-open');sheet.classList.add('is-open');state.panel.classList.add('is-open');}});
+  }else{
+   window.requestAnimationFrame(()=>{if(activePicker===state)state.panel.classList.add('is-open');});
+  }
+  window.requestAnimationFrame(()=>{if(activePicker===state)focusSelectedOption(state);});
+ }
+ function restoreNativeSelect(selectEl,state){
+  try{
+   if(state&&state.wrapper&&state.wrapper.parentNode){state.wrapper.parentNode.insertBefore(selectEl,state.wrapper);state.wrapper.remove();}
+   if(state&&state.addedNativeClass)selectEl.classList.remove('builder-size-native');
+   if(state&&state.originalAriaHidden===null)selectEl.removeAttribute('aria-hidden');else if(state)selectEl.setAttribute('aria-hidden',state.originalAriaHidden);
+   if(state&&state.originalTabIndex===null)selectEl.removeAttribute('tabindex');else if(state)selectEl.setAttribute('tabindex',state.originalTabIndex);
+  }catch(_){}
+ }
+ function enhanceBorderSelect(selectEl){
+  if(!isBorderSelect(selectEl))return false;
+  if(enhanced.has(selectEl))return true;
+  const state={select:selectEl,wrapper:null,trigger:null,panel:null,overlay:null,sheet:null,mobile:false};
+  state.addedNativeClass=!selectEl.classList.contains('builder-size-native');
+  state.originalAriaHidden=selectEl.getAttribute('aria-hidden');
+  state.originalTabIndex=selectEl.getAttribute('tabindex');
+  try{
+   const parent=selectEl.parentNode;if(!parent)return false;
+   state.wrapper=document.createElement('div');state.wrapper.className='border-picker';
+   parent.insertBefore(state.wrapper,selectEl);
+   state.wrapper.appendChild(selectEl);
+
+   /* Alguns selects de brinde não tinham opção vazia. A interface oferece "Sem borda"
+      sem acrescentar ou modificar opções de borda cadastradas no cardápio. */
+   if(!Array.from(selectEl.options).some(option=>option.value===''))selectEl.value='';
+
+   const id=++pickerSequence;
+   const fieldLabel=selectEl.parentElement?.parentElement?.querySelector('label[for="'+CSS.escape(selectEl.id)+'"]')||selectEl.closest('.builder-border-field,.promo-form-field')?.querySelector('label');
+   state.labelText=(fieldLabel?.textContent||'Borda').trim();
+   if(fieldLabel&&!fieldLabel.id)fieldLabel.id='border-picker-label-'+id;
+   state.headingId='border-picker-heading-'+id;
+   state.valueId='border-picker-value-'+id;
+   state.trigger=document.createElement('button');state.trigger.type='button';state.trigger.className='border-picker-trigger';
+   state.trigger.setAttribute('aria-haspopup','listbox');state.trigger.setAttribute('aria-expanded','false');
+   state.trigger.setAttribute('aria-controls','border-picker-options-'+id);
+   if(fieldLabel)state.trigger.setAttribute('aria-labelledby',fieldLabel.id+' '+state.valueId);
+   const copy=document.createElement('span');copy.className='border-picker-trigger-copy';
+   state.valueNode=document.createElement('span');state.valueNode.className='border-picker-trigger-value';state.valueNode.id=state.valueId;
+   state.priceNode=document.createElement('span');state.priceNode.className='border-picker-trigger-price';
+   state.priceNode.hidden=true;
+   copy.append(state.valueNode,state.priceNode);
+   const chevron=document.createElement('span');chevron.className='border-picker-chevron';chevron.setAttribute('aria-hidden','true');chevron.textContent='▾';
+   state.trigger.append(copy,chevron);
+
+   state.panel=document.createElement('div');state.panel.className='border-picker-panel';state.panel.hidden=true;state.panel.setAttribute('aria-hidden','true');
+   state.handle=document.createElement('div');state.handle.className='border-picker-handle';state.handle.setAttribute('aria-hidden','true');
+   const head=document.createElement('div');head.className='border-picker-panel-head';
+   const heading=document.createElement('strong');heading.id=state.headingId;heading.textContent='Escolha a borda';
+   state.closeButton=document.createElement('button');state.closeButton.type='button';state.closeButton.className='border-picker-close';state.closeButton.textContent='Fechar';
+   head.append(heading,state.closeButton);
+   state.optionsNode=document.createElement('div');state.optionsNode.className='border-picker-options';state.optionsNode.id='border-picker-options-'+id;state.optionsNode.setAttribute('role','listbox');state.optionsNode.setAttribute('aria-label',state.labelText);
+   state.panel.append(head,state.optionsNode);
+   state.wrapper.append(state.trigger,state.panel);
+
+   selectEl.classList.add('builder-size-native');selectEl.setAttribute('aria-hidden','true');selectEl.setAttribute('tabindex','-1');
+   refreshButton(state);
+   enhanced.set(selectEl,state);
+
+   if(valueDescriptor&&valueDescriptor.get&&valueDescriptor.set){
+    try{Object.defineProperty(selectEl,'value',{configurable:true,enumerable:valueDescriptor.enumerable,get(){return valueDescriptor.get.call(this);},set(next){valueDescriptor.set.call(this,next);const linked=enhanced.get(this);if(linked)refreshButton(linked);}});}catch(_){/* change/mutation listeners continuam ativos como fallback. */}
+   }
+   selectEl.addEventListener('change',()=>refreshButton(state));
+   const optionsObserver=new MutationObserver(()=>refreshButton(state));
+   optionsObserver.observe(selectEl,{childList:true,subtree:true,characterData:true});
+   state.optionsObserver=optionsObserver;
+
+   state.trigger.addEventListener('click',()=>openBorderPicker(state));
+   state.closeButton.addEventListener('click',()=>closeBorderPicker(true));
+   state.optionsNode.addEventListener('click',event=>{
+    const option=event.target.closest('[data-border-picker-option]');if(!option)return;
+    selectEl.value=option.dataset.borderValue||'';
+    selectEl.dispatchEvent(new Event('change',{bubbles:true}));
+    refreshButton(state);
+    closeBorderPicker(true);
+   });
+   state.optionsNode.addEventListener('keydown',event=>{
+    const options=Array.from(state.optionsNode.querySelectorAll('[role="option"]'));
+    const index=options.indexOf(document.activeElement);let next=-1;
+    if(event.key==='ArrowDown')next=Math.min(options.length-1,index+1);
+    else if(event.key==='ArrowUp')next=Math.max(0,index-1);
+    else if(event.key==='Home')next=0;
+    else if(event.key==='End')next=options.length-1;
+    if(next>=0&&options[next]){event.preventDefault();options[next].focus();}
+   });
+   return true;
+  }catch(error){
+   restoreNativeSelect(selectEl,state);
+   console.warn('Não foi possível aprimorar o seletor de borda; o campo nativo foi mantido.',error);
+   return false;
+  }
+ }
+
+ window.enhanceBorderSelect=enhanceBorderSelect;
+ document.addEventListener('keydown',event=>{
+  if(!activePicker)return;
+  if(event.key==='Escape'){event.preventDefault();event.stopImmediatePropagation();closeBorderPicker(true);}
+ },true);
+ document.addEventListener('click',event=>{
+  const state=activePicker;if(!state||state.mobile)return;
+  if(state.wrapper.contains(event.target))return;
+  closeBorderPicker(false);
+ });
+
+ function scan(root){
+  if(root&&root.nodeType===1&&isBorderSelect(root))enhanceBorderSelect(root);
+  if(root&&root.querySelectorAll)root.querySelectorAll('select').forEach(selectEl=>{if(isBorderSelect(selectEl))enhanceBorderSelect(selectEl);});
+ }
+ scan(document);
+ const observer=new MutationObserver(records=>{
+  records.forEach(record=>record.addedNodes.forEach(node=>{if(node.nodeType===1)scan(node);}));
+ });
+ observer.observe(document.body,{childList:true,subtree:true});
 })();
 </script>
 
